@@ -1,0 +1,2467 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include <windows.h>
+#include <commctrl.h>
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+401 MENU
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "GBAを開く(&O)...",               57601
+        MENUITEM "GBxを開く(&G)...",               40135
+        POPUP "最近開いたファイル(&N)"
+        BEGIN
+            MENUITEM "リセット(&R)",                    40109
+            MENUITEM "ロック(&L)",                     40162
+            MENUITEM SEPARATOR
+            MENUITEM "最近開いたロムを開く #&1",              57616
+            MENUITEM "最近開いたロムを開く #&2",              57617
+            MENUITEM "最近開いたロムを開く #&3",              57618
+            MENUITEM "最近開いたロムを開く #&4",              57619
+            MENUITEM "最近開いたロムを開く #&5",              57620
+            MENUITEM "最近開いたロムを開く #&6",              57621
+            MENUITEM "最近開いたロムを開く #&7",              57622
+            MENUITEM "最近開いたロムを開く #&8",              57623
+            MENUITEM "最近開いたロムを開く #&9",              57624
+            MENUITEM "最近開いたロムを開く #1&0",             57625
+        END
+        MENUITEM SEPARATOR
+        POPUP "状態の復元(&L)"
+        BEGIN
+            MENUITEM "&Current Slot",               40423
+            MENUITEM "Most &Recent Slot",           40420
+            MENUITEM "Load From &File...",          40019
+            MENUITEM SEPARATOR
+            MENUITEM "セーブファイルをインポート(&B)...",        40116
+            MENUITEM "ゲームシャーク スナップショットをインポート(&G)...", 40115
+            MENUITEM SEPARATOR
+            MENUITEM "スロット #&1",                    40045
+            MENUITEM "スロット #&2",                    40046
+            MENUITEM "スロット #&3",                    40047
+            MENUITEM "スロット #&4",                    40048
+            MENUITEM "スロット #&5",                    40049
+            MENUITEM "スロット #&6",                    40050
+            MENUITEM "スロット #&7",                    40051
+            MENUITEM "スロット #&8",                    40052
+            MENUITEM "スロット #&9",                    40053
+            MENUITEM "スロット #1&0",                   40054
+            MENUITEM SEPARATOR
+            MENUITEM "&Make 'Current' On Load",     40424
+            MENUITEM "Make 'Recent' On &Load",      40431
+            MENUITEM SEPARATOR
+            MENUITEM "&Auto Load Most Recent On Start", 40393
+        END
+        POPUP "状態の保存(&S)"
+        BEGIN
+            MENUITEM "現在のスロット(&C)",                 40427
+            MENUITEM "一番古いスロット(&O)",                40429
+            MENUITEM "ファイルに保存(&F)...",              57603
+            MENUITEM SEPARATOR
+            MENUITEM "セーブファイルをエクスポート(&B)...",       40118
+            MENUITEM "ゲームシャーク スナップショットをエクスポート(&G)...", 40163
+            MENUITEM SEPARATOR
+            MENUITEM "スロット #&1",                    40035
+            MENUITEM "スロット #&2",                    40036
+            MENUITEM "スロット #&3",                    40037
+            MENUITEM "スロット #&4",                    40038
+            MENUITEM "スロット #&5",                    40039
+            MENUITEM "スロット #&6",                    40040
+            MENUITEM "スロット #&7",                    40041
+            MENUITEM "スロット #&8",                    40042
+            MENUITEM "スロット #&9",                    40043
+            MENUITEM "スロット #1&0",                   40044
+            MENUITEM SEPARATOR
+            MENUITEM "&Make 'Current' On Save",     40428
+        END
+        POPUP "現在のスロット(&U)"
+        BEGIN
+            MENUITEM "スロット番号を増やす(&I)",              40430
+            MENUITEM "スロット番号を減らす(&D)",              40416
+            MENUITEM SEPARATOR
+            MENUITEM "スロット #&1",                    40440
+            MENUITEM "スロット #&2",                    40441
+            MENUITEM "スロット #&3",                    40442
+            MENUITEM "スロット #&4",                    40443
+            MENUITEM "スロット #&5",                    40444
+            MENUITEM "スロット #&6",                    40445
+            MENUITEM "スロット #&7",                    40446
+            MENUITEM "スロット #&8",                    40447
+            MENUITEM "スロット #&9",                    40448
+            MENUITEM "スロット #1&0",                   40449
+            MENUITEM SEPARATOR
+            MENUITEM "作成日時を表示(&T)",                 42405
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "ポーズ(&P)",                     40014
+        MENUITEM "フレームアドバンス(&F)",               40137
+        MENUITEM "    &Account For Lag",        42410
+        MENUITEM "巻き戻し(&W)",                    40258
+        MENUITEM "巻き戻し設定(&T)...",               40262
+        MENUITEM SEPARATOR
+        MENUITEM "リセット(&R)",                    40018
+        MENUITEM "閉じる(&C)",                     57602
+        MENUITEM SEPARATOR
+        MENUITEM "ロム情報(&I)...",                 40100
+        MENUITEM SEPARATOR
+        MENUITEM "終了(&X)",                      40002
+    END
+    POPUP "オプション(&O)"
+    BEGIN
+        POPUP "インプット(&I)"
+        BEGIN
+            POPUP "設定(&S)"
+            BEGIN
+                MENUITEM "設定 &1...",                    40199
+                MENUITEM "設定 &2...",                    40200
+                MENUITEM "設定 &3...",                    40201
+                MENUITEM "設定 &4...",                    40202
+                MENUITEM SEPARATOR
+                MENUITEM "モーションセンサー(&M)...",            40103
+            END
+            POPUP "使用する設定(&U)"
+            BEGIN
+                MENUITEM "設定 &1",                       40208
+                MENUITEM "設定 &2",                       40209
+                MENUITEM "設定 &3",                       40210
+                MENUITEM "設定 &4",                       40211
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "左+右 / 上+下を許可(&A)",            40382
+            MENUITEM SEPARATOR
+            POPUP "連射(&F)"
+            BEGIN
+                MENUITEM "Aボタン(&A)",                    40366
+                MENUITEM "Bボタン(&B)",                    40367
+                MENUITEM "Lボタン(&L)",                    40368
+                MENUITEM "Rボタン(&R)",                    40369
+                MENUITEM "スタート(&S)",                    40370
+                MENUITEM "セレクト(&T)",                    40371
+                MENUITEM "上(&U)",                       40372
+                MENUITEM "下(&D)",                       40373
+                MENUITEM "左(&E)",                       40374
+                MENUITEM "右(&I)",                       40375
+                MENUITEM SEPARATOR
+                MENUITEM "すべてクリア(&C)",                  40376
+                MENUITEM "Account &For Lag",            42408
+            END
+            POPUP "自動ホールド(&H)"
+            BEGIN
+                MENUITEM "Aボタン(&A)",                    40399
+                MENUITEM "Bボタン(&B)",                    40400
+                MENUITEM "Lボタン(&L)",                    40410
+                MENUITEM "Rボタン(&R)",                    40402
+                MENUITEM "スタート(&S)",                    40403
+                MENUITEM "セレクト(&T)",                    40404
+                MENUITEM "上(&U)",                       40405
+                MENUITEM "下(&D)",                       40406
+                MENUITEM "左(&E)",                       40407
+                MENUITEM "右(&I)",                       40408
+                MENUITEM SEPARATOR
+                MENUITEM "&Clear All",                  40412
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "すべてのコマンドの変種(&Z)...",          40452
+        END
+        POPUP "スピード(&S)"
+        BEGIN
+            POPUP "スピードの設定(&S)"
+            BEGIN
+                MENUITEM "6% (低速)",                     40324
+                MENUITEM "15%",                         40325
+                MENUITEM "25%",                         40326
+                MENUITEM "50% (0.5倍速)",                 40328
+                MENUITEM "75%",                         40329
+                MENUITEM "100% (通常)",                   40331
+                MENUITEM "150%",                        40334
+                MENUITEM "200% (2倍速)",                  40335
+                MENUITEM "300%",                        40336
+                MENUITEM "400%",                        40337
+                MENUITEM "600% (高速)",                   40338
+                MENUITEM "その他(&O)...",                  40221
+                MENUITEM SEPARATOR
+                MENUITEM "増やす(&I)",                     40364
+                MENUITEM "減らす(&D)",                     40365
+            END
+            POPUP "フレームスキップ(&F)"
+            BEGIN
+                MENUITEM "スキップ &0 (フレームスキップしない)",       40350
+                MENUITEM "スキップ &1 (フレームごとにスキップ)",       40351
+                MENUITEM "スキップ &2 (3フレーム中2スキップ)",       40352
+                MENUITEM "スキップ &3",                     40353
+                MENUITEM "スキップ &4",                     40354
+                MENUITEM "スキップ &5",                     40355
+                MENUITEM "スキップ &6",                     40356
+                MENUITEM "スキップ &7",                     40357
+                MENUITEM "スキップ &8",                     40358
+                MENUITEM "スキップ &9 (10フレーム中9スキップ)",      40359
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "ターボモード(&T)",                  40158
+            MENUITEM SEPARATOR
+            MENUITEM "エミュレーション速度の同期(&Y)",           40017
+            MENUITEM "    正確な音程(&P)",               40289
+            MENUITEM "    正確なエミュレーション速度(&E)",       40290
+        END
+        MENUITEM SEPARATOR
+        POPUP "ビデオ(&V)"
+        BEGIN
+            POPUP "描写速度(&R)"
+            BEGIN
+                MENUITEM "&GDI",                        40228
+                MENUITEM SEPARATOR
+                MENUITEM "&DirectDraw",                 40229
+                MENUITEM "    DDraw エミュレーションのみ(&E)",    40070
+                MENUITEM "    DDraw ビデオメモリを使用(&U)",     40071
+                MENUITEM "    DDraw トリプルバッファ(&T)",      40192
+                MENUITEM "    DDraw &VSync",            40009
+                MENUITEM SEPARATOR
+                MENUITEM "Direct&3D",                   40230
+                MENUITEM "    D3D ニアレスト(&N)",           40233
+                MENUITEM "    D3D バイリニア(&B)",           40234
+                MENUITEM SEPARATOR
+                MENUITEM "&OpenGL",                     40231
+                MENUITEM "    GL ニアレスト(&A)",            40237
+                MENUITEM "    GL バイリニア(&I)",            40238
+                MENUITEM "    GL トライアングル(&R)",          40239
+                MENUITEM "    GL クアッド(&Q)",             40240
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "&1倍 ウィンドウサイズ",                40010
+            MENUITEM "&2倍 ウィンドウサイズ",                40011
+            MENUITEM "&3倍 ウィンドウサイズ",                40012
+            MENUITEM "&4倍 ウィンドウサイズ",                40013
+            MENUITEM SEPARATOR
+            MENUITEM "フルスクリーン (320x240)",           40076
+            MENUITEM "フルスクリーン (640x480)",           40077
+            MENUITEM "フルスクリーン (800x600)",           40164
+            MENUITEM "その他のサイズ(&O)...",              40191
+            MENUITEM SEPARATOR
+            MENUITEM "フルスクリーン 最大スケール(&M)...",       40273
+            MENUITEM "フルスクリーン 比率を無視する(&I)",         40089
+            MENUITEM "フルスクリーン メニューを隠す(&H)",         40263
+            MENUITEM "フルスクリーン 自動でメニューを隠す(&A)",      40255
+            MENUITEM SEPARATOR
+            MENUITEM "SFXを無効にする(&D)",               40033
+            POPUP "グラフィックレイヤー(&L)"
+            BEGIN
+                MENUITEM "BG 0",                        40127
+                MENUITEM "BG 1",                        40128
+                MENUITEM "BG 2",                        40129
+                MENUITEM "BG 3",                        40130
+                MENUITEM "OBJ",                         40131
+                MENUITEM "WIN 0",                       40132
+                MENUITEM "WIN 1",                       40133
+                MENUITEM "OBJ WIN",                     40134
+            END
+        END
+        POPUP "ピクセルフィルタ(&P)"
+        BEGIN
+            POPUP "フレーム間ブレンディング(&I)"
+            BEGIN
+                MENUITEM "なし(&N)",                      40188
+                MENUITEM SEPARATOR
+                MENUITEM "モーションブラー(&M)",                40189
+                MENUITEM "スマート(&S)",                    40190
+            END
+            MENUITEM SEPARATOR
+            POPUP "&Miscellaneous 2x"
+            BEGIN
+                MENUITEM "&None",                       40078
+                MENUITEM SEPARATOR
+                MENUITEM "&TV Mode",                    40083
+                MENUITEM "Scan&lines",                  40223
+                MENUITEM SEPARATOR
+                MENUITEM "&Bilinear",                   40186
+                MENUITEM "Bilinear Pl&us",              40187
+                MENUITEM SEPARATOR
+                MENUITEM "&Motion Blur",                40122
+            END
+            POPUP "&2x Magnification"
+            BEGIN
+                MENUITEM "Simple 2&x",                  40161
+                MENUITEM "&Pixelate 2x",                40121
+                MENUITEM SEPARATOR
+                MENUITEM "&2xSaI",                      40079
+                MENUITEM "&Super 2xSaI",                40081
+                MENUITEM "Super &Eagle",                40082
+                MENUITEM "&AdvanceMAME Scale2x",        40160
+                MENUITEM SEPARATOR
+                MENUITEM "LQ2x",                        40275
+                MENUITEM "HQ2x",                        40276
+                MENUITEM "HQ2xS",                       40277
+            END
+            POPUP "&3x Magnification"
+            BEGIN
+                MENUITEM "Simple 3&x",                  40165
+                MENUITEM "&Pixelate 3x",                40167
+                MENUITEM SEPARATOR
+                MENUITEM "HQ3x",                        40278
+                MENUITEM "HQ3xS",                       40279
+            END
+            POPUP "&4x Magnification"
+            BEGIN
+                MENUITEM "Simple 4&x",                  40166
+                MENUITEM "&Pixelate 4x",                40168
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "MMX最適化を無効にする(&D)",            40093
+        END
+        POPUP "オーディオ(&A)"
+        BEGIN
+            MENUITEM "無効にする(&D)",                   40022
+            MENUITEM SEPARATOR
+            MENUITEM "すべてのチャンネルをミュート(&M)",          40003
+            MENUITEM "ミュートフレームアドバンス(&A)",           40378
+            MENUITEM "非アクティブ時にミュート(&I)",            42404
+            MENUITEM SEPARATOR
+            MENUITEM "古い同期方法を使用する(&U)",             40136
+            MENUITEM "ステレオ反転(&R)",                  40150
+            MENUITEM SEPARATOR
+            MENUITEM "エコー(&E)",                     40148
+            MENUITEM "ローパスフィルタ(&L)",                40149
+            MENUITEM SEPARATOR
+            POPUP "音量(&V)"
+            BEGIN
+                MENUITEM "&.25x",                       40271
+                MENUITEM ".&5x",                        40270
+                MENUITEM "&1x",                         40182
+                MENUITEM "&2x",                         40183
+                MENUITEM "&3x",                         40184
+                MENUITEM "&4x",                         40185
+            END
+            POPUP "チャンネル(&C)"
+            BEGIN
+                MENUITEM "すべてのチャンネルをON(&E)",            40024, CHECKED
+                MENUITEM "すべてのチャンネルをOFF(&D)",           40023
+                MENUITEM SEPARATOR
+                MENUITEM "チャンネル &1",                    40025, CHECKED
+                MENUITEM "チャンネル &2",                    40026, CHECKED
+                MENUITEM "チャンネル &3",                    40027, CHECKED
+                MENUITEM "チャンネル &4",                    40028, CHECKED
+                MENUITEM "Direct Sound &A",             40020, CHECKED
+                MENUITEM "Direct Sound &B",             40021, CHECKED
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "&11 Khz",                     40067
+            MENUITEM "&22 Khz",                     40068
+            MENUITEM "&44 Khz",                     40069
+        END
+        MENUITEM SEPARATOR
+        POPUP "エミュレーション(&E)"
+        BEGIN
+            MENUITEM "時計機能(&R)",                    40248
+            POPUP "セーブ形式(&T)"
+            BEGIN
+                MENUITEM "自動認識(&A)",                    40169
+                MENUITEM "&EEPROM",                     40170
+                MENUITEM "&SRAM",                       40171
+                MENUITEM "&Flash",                      40172
+                MENUITEM "EE&PROM+センサー",                40173
+                MENUITEM "なし(&N)",                      40264
+                MENUITEM SEPARATOR
+                MENUITEM "Flash &64K",                  40174
+                MENUITEM "Flash &128K",                 40175
+                MENUITEM SEPARATOR
+                MENUITEM "高度な検出(&D)",                   40265
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "GBA ラグの削減(&L)",               40394
+            MENUITEM "古いフレームタイミングを使用する(&O)",        40395
+            MENUITEM "    Use v20 &GB Frame Kludge", 40398
+            MENUITEM "Use &GB Null Input Kludge",   40396
+            MENUITEM SEPARATOR
+            MENUITEM "BIOSを使用する(&U)",               40029
+            MENUITEM "BIOS画面のスキップ(&I)",             40259
+            MENUITEM "BIOSファイルの選択(&B)...",          40030
+            MENUITEM SEPARATOR
+            MENUITEM "IPSパッチの自動適用(&P)",             40176
+        END
+        POPUP "ゲームボーイモード(&M)"
+        BEGIN
+            MENUITEM "自動検出(&D)",                    40057
+            MENUITEM "ゲームボーイアドバンス(&A) (GBA/AGB)",   40059
+            MENUITEM "ゲームボーイカラー(&C) (GBC/CGB)",     40058
+            MENUITEM "ゲームボーイカラー + SGBフレーム(&O)",     40249
+            MENUITEM "スーパーゲームボーイ(&S) (SGB)",        40060
+            MENUITEM "ゲームボーイ(&B) (GB)",             40062
+            MENUITEM SEPARATOR
+            MENUITEM "フレームの自動認識(&U)",               40256
+            MENUITEM "つねにフレームを表示(&W)",              40034
+            MENUITEM SEPARATOR
+            MENUITEM "GB ポケットプリンタ(&P)",             40108
+            MENUITEM SEPARATOR
+            MENUITEM "オリジナルの色(&R)",                 40063
+            MENUITEM "実機の色を再現(&M)",                 40064
+            MENUITEM "色の設定(&Z)...",                 40147
+        END
+        MENUITEM SEPARATOR
+        POPUP "ヘッドアップディスプレイ(&H)"
+        BEGIN
+            MENUITEM "フレームカウンター(&F)",               40341
+            MENUITEM "    ラグカウンター(&L)",             40464
+            MENUITEM "    エクストラカウンター(&E)",          42413
+            MENUITEM "    エクストラカウンターのリセット(&R)",     42415
+            MENUITEM "入力状態の表示(&I)",                 40342
+            MENUITEM SEPARATOR
+            MENUITEM "テキスト表示の設定(&T)...",            40397
+            MENUITEM "ステータスメッセージを表示しない(&M)",        40102
+            MENUITEM SEPARATOR
+            POPUP "スピードの表示"
+            BEGIN
+                MENUITEM "なし",                          40195
+                MENUITEM "パーセント",                       40196
+                MENUITEM "詳細",                          40197
+                MENUITEM SEPARATOR
+                MENUITEM "半透明",                         40198
+            END
+        END
+        POPUP "設定(&P)"
+        BEGIN
+            MENUITEM "常に前面に表示(&T)",                 42402
+            MENUITEM "バックグラウンド時の入力を許可(&B)",         42403
+            MENUITEM "非アクティブ時に停止(&I)",              40123
+            POPUP "優先度(&P)"
+            BEGIN
+                MENUITEM "高い(&H)",                      40072
+                MENUITEM "やや高い(&A)",                    40073
+                MENUITEM "標準(&N)",                      40074
+                MENUITEM "やや低い(&B)",                    40075
+            END
+            MENUITEM SEPARATOR
+            POPUP "ファイルの命名規則(&N)"
+            BEGIN
+                MENUITEM "ディスク上のアーカイブファイル名を優先(&A)",     42400
+                MENUITEM "ロムファイル名を優先する(&R)",            42401
+            END
+            MENUITEM "ディレクトリ(&D)...",               40015
+            MENUITEM "ファイルの関連付け(&A)...",            40091
+            MENUITEM SEPARATOR
+            POPUP "UIの言語(&L)"
+            BEGIN
+                MENUITEM "システム(&S)",                    40105
+                MENUITEM "英語(&E)",                      40106
+                MENUITEM "その他(&O)...",                  40107
+            END
+        END
+    END
+    POPUP "チート(&C)"
+    BEGIN
+        MENUITEM "メモリサーチ(&R)...",               40522
+        MENUITEM "メモリ監視(&W)...",                40523
+        MENUITEM SEPARATOR
+        MENUITEM "古い方式のチートサーチ&(C)...",          40031
+        MENUITEM "チートサーチ中に一時停止する(&P)",          40463
+        MENUITEM SEPARATOR
+        MENUITEM "チートリストの表示(&V)...",            40084
+        MENUITEM "チートリストの保存(&L)...",            40110
+        MENUITEM "チートリストの読込み(&S)...",           40111
+        MENUITEM "チートの自動保存/読込(&A)",             40112
+        MENUITEM SEPARATOR
+        MENUITEM "ゲームシャーク コードファイルのインポート(&G)...", 40117
+        MENUITEM SEPARATOR
+        MENUITEM "チートを無効にする(&D)",               40272
+    END
+    POPUP "ツール(&T)"
+    BEGIN
+        POPUP "デバッグ(&D)"
+        BEGIN
+            MENUITEM "逆アセンブル(&D)...",               40151
+            MENUITEM "ログ(&L)...",                   40156
+            MENUITEM "IO ビュアー(&I)...",              40266
+            MENUITEM "マップ ビュアー(&M)...",             40138
+            MENUITEM "メモリ ビュアー(&V)...",             40143
+            MENUITEM "OAM ビュアー(&O)...",             40144
+            MENUITEM "パレット ビュアー(&P)...",            40139
+            MENUITEM "タイル ビュアー(&T)...",             40146
+            MENUITEM SEPARATOR
+            MENUITEM "&AGB Print",                  40247
+            POPUP "&GDB"
+            BEGIN
+                MENUITEM "接続を待機(&W)...",                40152
+                MENUITEM "読込みと待機(&L)...",               40153
+                MENUITEM "GDB内でブレイク(&B)",               40155
+                MENUITEM "切断(&D)",                      40154
+            END
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "フレームサーチ(&S)",                 40432
+        MENUITEM "フレームサーチ 戻る(&V)",              40439
+        MENUITEM "フレームサーチ 終了(&E)",              40438
+        MENUITEM SEPARATOR
+        POPUP "Luaスクリプト(&L)"
+        BEGIN
+            MENUITEM "新規Luaスクリプトウィンドウ(&N)...",      40467
+            MENUITEM "すべてのスクリプトウィンドウを閉じる(&A)",      40469
+        END
+        MENUITEM SEPARATOR
+        POPUP "ムービー(&M)"
+        BEGIN
+            MENUITEM "ムービーの再生(&P)...",              40253
+            MENUITEM "最初から再生(&W)",                  40387
+            MENUITEM SEPARATOR
+            MENUITEM "新規ムービーの録画(&N)...",            40251
+            MENUITEM "録画の再開/終了(&R)",                40388
+            MENUITEM SEPARATOR
+            MENUITEM "読み取り専用(&O)",                  40385
+            POPUP "編集モード(&M)"
+            BEGIN
+                MENUITEM "次のモード(&N)",                   42441
+                MENUITEM SEPARATOR
+                MENUITEM "切り捨てモード(&D)",                 42442
+                MENUITEM "上書きモード(&O)",                  42443
+                MENUITEM "挿入モード(&I)",                   42444
+                MENUITEM "XOR入力モード(X)",                 42445
+            END
+            POPUP "ムービー終了時の動作(&E)"
+            BEGIN
+                MENUITEM "エミュレーターの停止(&P)",              40487
+                MENUITEM SEPARATOR
+                MENUITEM "ムービーを閉じる(&C)",                40490
+                MENUITEM "最初から再生(&W)",                  40488
+                MENUITEM "変更を追加(&A)",                   40489
+                MENUITEM "開いたままにする(&L)",                40491
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "ムービーの停止(&S)",                 40254
+            MENUITEM SEPARATOR
+            POPUP "高度なツール(&T)"
+            BEGIN
+                MENUITEM "VBM 1.0形式から変換(&C)",           40501
+                MENUITEM SEPARATOR
+                MENUITEM "開いたムービーを自動変換(&A)",            40541
+                MENUITEM SEPARATOR
+                MENUITEM "ヘッダーを修正(&H)",                 40507
+                MENUITEM SEPARATOR
+                MENUITEM "&Insert 1 Frame",             42450
+                MENUITEM "&Delete 1 Frame",             42451
+                MENUITEM "I&nsert Frames...",           42452
+                MENUITEM "D&elete Frames...",           42453
+                MENUITEM "現フレームで切り捨て(&T)",              40504
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "状態保存に関連付ける(&A)",              42412
+        END
+        MENUITEM "AVI録画の停止/再開(&R)",             42406
+        MENUITEM "AVI録画の開始/停止(&A)...",          40177
+        MENUITEM "WAV録音の開始/停止(&W)...",          40124
+        MENUITEM SEPARATOR
+        MENUITEM "スクリーンショット(&C)...",            40104
+        POPUP "スクリーンショット形式(&F)"
+        BEGIN
+            MENUITEM "PNG形式(&F)",                   40140
+            MENUITEM "BMP形式(&B)",                   40141
+        END
+    END
+    POPUP "ヘルプ(&H)"
+    BEGIN
+        MENUITEM "FAQ (ウェブサイト)(&F)...",         40261
+        MENUITEM "バグの報告(&B)...",                40260
+        MENUITEM SEPARATOR
+        MENUITEM "VBA-rrについて(&A)...",           40001
+    END
+END
+
+LUAWINDOW_MENU MENU
+BEGIN
+    POPUP "コンソール"
+    BEGIN
+        MENUITEM "フォント...",                     1367
+        MENUITEM "クリア",                         1366
+    END
+END
+
+RAMWATCH_MENU MENU
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "新規リスト(&N)\tCtrl+N",           42303
+        MENUITEM "開く(&O)...\tCtrl+O",           42304
+        MENUITEM "保存(&S)\tCtrl+S",              42305
+        MENUITEM "名前を付けて保存(&V)...\tCtrl+Shift+S", 42306
+        MENUITEM "追加ファイル(&A)...",               42301
+        MENUITEM "最近開いたファイル(&R)",               42307
+        MENUITEM SEPARATOR
+        MENUITEM "自動読み込み(&L)",                  42300
+        MENUITEM "ウィンドウ位置を記憶(&W)",              42302
+        MENUITEM SEPARATOR
+        MENUITEM "閉じる(&C)\tAlt+F4",             IDCANCEL
+    END
+    POPUP "監視(&W)"
+    BEGIN
+        MENUITEM "新規メモリ監視(&N)\tN",              41139
+        MENUITEM "メモリ監視の編集(&E)\tE",             43402
+        MENUITEM "メモリ監視の削除(&R)\tR",             43403
+        MENUITEM "メモリ監視の複製(&A)\tA",             43401
+        MENUITEM SEPARATOR
+        MENUITEM "上に移動(&U)\tU",                 43404
+        MENUITEM "下に移動(&D)\tD",                 43400
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+505 DIALOGEX 0, 0, 164, 101
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "VBA rerecordingについて"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,56,80,50,14
+    ICON            451,-1,5,12,20,20
+    CTEXT           "VisualBoyAdvance Emulator",-1,14,7,134,8
+    CTEXT           "Copyright (c) 2004 Forgotten and the VBA team",-1,7,35,150,8
+    CTEXT           "http://code.google.com/p/vba-rerecording/",1187,7,55,150,8
+    CTEXT           "Contribution by Costis",-1,30,45,102,8
+    CTEXT           "Version",-1,46,16,70,8
+    CTEXT           "",1419,36,25,98,8
+    CTEXT           "Re-recording additions by VBA-rr team",-1,14,66,136,8
+END
+
+507 DIALOGEX 0, 0, 276, 253
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Search for cheats"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",1023,"SysListView32",LVS_REPORT | LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,3,5,265,111
+    CONTROL         "前回と比較(&D)",1026,"Button",BS_AUTORADIOBUTTON | WS_GROUP,11,129,58,10
+    CONTROL         "値の検索(&C) ",1027,"Button",BS_AUTORADIOBUTTON,11,141,61,10
+    CONTROL         "&8 ビット",1028,"Button",BS_AUTORADIOBUTTON | WS_GROUP,11,167,33,10
+    CONTROL         "&16 ビット",1029,"Button",BS_AUTORADIOBUTTON,11,179,37,10
+    CONTROL         "&32 ビット",1030,"Button",BS_AUTORADIOBUTTON,11,191,37,10
+    CONTROL         "同じ値(&E)",1031,"Button",BS_AUTORADIOBUTTON | WS_GROUP,100,128,68,10
+    CONTROL         "違う値(&N)",1032,"Button",BS_AUTORADIOBUTTON,100,140,72,10
+    CONTROL         "小さい値(&L)",1033,"Button",BS_AUTORADIOBUTTON,100,152,74,10
+    CONTROL         "小さいか同じ値(&S)",1034,"Button",BS_AUTORADIOBUTTON,100,164,80,10
+    CONTROL         "大きい値(&G)",1035,"Button",BS_AUTORADIOBUTTON,100,176,77,10
+    CONTROL         "大きいか同じ値(&R)",1036,"Button",BS_AUTORADIOBUTTON,100,188,80,10
+    CONTROL         "号あり(&S)",1037,"Button",BS_AUTORADIOBUTTON | WS_GROUP,202,130,58,10
+    CONTROL         "符号なし(&U)",1038,"Button",BS_AUTORADIOBUTTON,202,142,61,10
+    CONTROL         "16進(&H)",1040,"Button",BS_AUTORADIOBUTTON,202,154,57,10
+    CONTROL         "値の自動更新(&P)",1046,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,192,192,76,10
+    EDITTEXT        1041,95,211,172,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "開始(&S)",1024,15,237,50,14,WS_GROUP
+    PUSHBUTTON      "サーチ(&E)",1025,80,236,50,14
+    PUSHBUTTON      "チート追加(&A)",1440,145,236,50,14
+    DEFPUSHBUTTON   "OK",32771,210,236,50,14
+    GROUPBOX        "サーチタイプ(&S)",-1,3,118,84,36
+    GROUPBOX        "データサイズ(&D)",-1,3,158,84,44
+    GROUPBOX        "比較タイプ",-1,95,118,92,84
+    GROUPBOX        "値の形式",-1,192,118,76,50
+    LTEXT           "値の入力(&V):",-1,28,214,44,8
+    PUSHBUTTON      "値を更新(&V)",1283,192,172,75,14
+END
+
+508 DIALOGEX 0, 0, 186, 137
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "チートの追加"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1042,60,6,123,14,ES_AUTOHSCROLL
+    EDITTEXT        1041,60,24,123,14,ES_AUTOHSCROLL
+    EDITTEXT        1074,60,42,123,14,ES_AUTOHSCROLL
+    CONTROL         "8ビット",1028,"Button",BS_AUTORADIOBUTTON | WS_GROUP,11,70,36,10
+    CONTROL         "16ビット",1029,"Button",BS_AUTORADIOBUTTON,62,70,42,10
+    CONTROL         "32ビット",1030,"Button",BS_AUTORADIOBUTTON,117,70,45,10
+    CONTROL         "符号あり(&S)",1037,"Button",BS_AUTORADIOBUTTON | WS_GROUP,11,97,48,10
+    CONTROL         "符号なし(&U)",1038,"Button",BS_AUTORADIOBUTTON,62,98,50,10
+    CONTROL         "16進(&H)",1040,"Button",BS_AUTORADIOBUTTON,117,98,57,10
+    DEFPUSHBUTTON   "&OK",32771,36,116,50,14,WS_GROUP
+    PUSHBUTTON      "キャンセル",32772,99,116,50,14
+    LTEXT           "値(&V):",-1,3,27,54,8
+    GROUPBOX        "Number format",-1,3,88,180,24
+    LTEXT           "アドレス(&A):",-1,3,9,54,8
+    GROUPBOX        "サイズ",-1,3,60,180,24
+    LTEXT           "説明(&D):",-1,3,45,55,8
+END
+
+509 DIALOGEX 0, 0, 284, 260
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ディレクトリ"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "GBA ロム:",-1,7,9,40,8
+    EDITTEXT        1330,49,7,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",1310,213,7,24,14
+    PUSHBUTTON      "リセット",1350,242,7,35,14
+    LTEXT           "GBx ロム:",-1,7,28,40,8
+    EDITTEXT        1331,49,26,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",1311,213,26,24,14
+    PUSHBUTTON      "リセット",1351,242,26,35,14
+    LTEXT           "セーブ:",-1,7,47,40,8
+    EDITTEXT        1332,49,45,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",1312,213,45,24,14
+    PUSHBUTTON      "リセット",1352,242,45,35,14
+    LTEXT           "状態保存:",-1,7,66,36,8
+    EDITTEXT        1333,49,64,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",1313,213,64,24,14
+    PUSHBUTTON      "リセット",1353,242,64,35,14
+    LTEXT           "ムービー:",-1,7,85,40,8
+    EDITTEXT        1334,49,83,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",1314,213,83,24,14
+    PUSHBUTTON      "リセット",1354,242,83,35,14
+    LTEXT           "チート:",-1,7,104,40,8
+    EDITTEXT        1335,49,102,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",1315,213,102,24,14
+    PUSHBUTTON      "リセット",1355,242,102,35,14
+    LTEXT           "IPS:",-1,7,123,40,8
+    EDITTEXT        1340,49,121,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",1320,213,121,24,14
+    PUSHBUTTON      "リセット",1360,242,121,35,14
+    LTEXT           "Lua:",-1,7,142,40,8
+    EDITTEXT        1336,49,140,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",1316,213,140,24,14
+    PUSHBUTTON      "リセット",1356,242,140,35,14
+    LTEXT           "AVI:",-1,7,161,40,8
+    EDITTEXT        1337,49,159,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",1317,213,159,24,14
+    PUSHBUTTON      "リセット",1357,242,159,35,14
+    LTEXT           "WAV:",-1,7,180,40,8
+    EDITTEXT        1338,49,178,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",1318,213,178,24,14
+    PUSHBUTTON      "リセット",1358,242,178,35,14
+    LTEXT           "ｽｸﾘｰﾝｼｮｯﾄ:",-1,6,199,41,8
+    EDITTEXT        1339,49,197,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",1319,213,197,23,14
+    PUSHBUTTON      "リセット",1359,242,197,35,14
+    LTEXT           "メモリ監視:",-1,7,218,40,8
+    EDITTEXT        1329,49,216,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",1309,213,216,23,14
+    PUSHBUTTON      "リセット",1349,242,216,35,14
+    DEFPUSHBUTTON   "OK",IDOK,88,236,50,16
+    PUSHBUTTON      "キャンセル",IDCANCEL,145,236,50,16
+END
+
+510 DIALOGEX 0, 0, 135, 211
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ジョイパッドの設定"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1420,47,5,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1421,47,19,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1422,47,33,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1423,47,47,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1424,47,61,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1425,47,75,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1432,47,89,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1434,47,103,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1426,47,117,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1427,47,131,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1430,47,145,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1431,47,159,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1433,47,173,81,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",32771,20,190,40,14
+    PUSHBUTTON      "キャンセル",32772,74,190,40,14
+    LTEXT           "↑:",-1,5,5,35,10
+    LTEXT           "↓:",-1,5,19,35,10
+    LTEXT           "←:",-1,5,33,35,10
+    LTEXT           "→:",-1,5,47,35,10
+    LTEXT           "A:",-1,5,61,40,10
+    LTEXT           "B:",-1,5,75,40,10
+    LTEXT           "L:",-1,5,89,40,10
+    LTEXT           "R:",-1,5,103,40,10
+    LTEXT           "セレクト:",-1,5,117,40,10
+    LTEXT           "スタート:",-1,5,131,40,10
+    LTEXT           "スピード:",-1,5,145,40,10
+    LTEXT           "ｽｸﾘｰﾝｼｮｯﾄ:",-1,2,159,43,10
+    LTEXT           "GameShark:",-1,5,173,40,10
+END
+
+513 DIALOGEX 0, 0, 280, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "チートリスト"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "前回の値に戻す(&P)",1065,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,5,183,92,10
+    PUSHBUTTON      "コード(&C)...",1106,9,208,64,14,WS_GROUP
+    PUSHBUTTON      "チート(&H)...",1440,75,208,64,14
+    PUSHBUTTON      "&Gameshark...",1445,141,208,64,14
+    PUSHBUTTON      "CodeBreaker...",1107,206,208,64,14
+    PUSHBUTTON      "削除(&R)",1062,9,230,64,14
+    PUSHBUTTON      "すべて削除(&L)",1063,75,230,64,14
+    PUSHBUTTON      "コードON/OFF(&E)",1064,141,230,64,14
+    DEFPUSHBUTTON   "&OK",32771,206,230,64,14,WS_GROUP
+    CONTROL         "",1023,"SysListView32",LVS_REPORT | WS_BORDER | WS_GROUP | WS_TABSTOP,5,15,269,156
+    LTEXT           "ステータス:",-1,6,3,46,8
+    LTEXT           "E: コードON",-1,180,3,44,8
+    LTEXT           "D: コードOFF",-1,229,3,43,8
+    GROUPBOX        "追加",-1,5,199,268,27
+END
+
+514 DIALOGEX 0, 0, 116, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ファイルの関連付け"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         ".gb",1069,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,15,26,10
+    CONTROL         ".sgb",1070,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,29,29,10
+    CONTROL         ".cgb",1071,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,43,30,10
+    CONTROL         ".gbc",1072,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,57,30,10
+    CONTROL         ".gba",1066,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,13,30,10
+    CONTROL         ".agb",1067,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,27,30,10
+    CONTROL         ".bin",1068,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,41,27,10
+    DEFPUSHBUTTON   "OK",32771,3,78,50,14
+    PUSHBUTTON      "キャンセル",32772,63,78,50,14
+    GROUPBOX        "GBA 形式",-1,63,3,50,51
+    GROUPBOX        "GB 形式",-1,3,3,50,69
+END
+
+516 DIALOGEX 0, 0, 220, 142
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ロム情報"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",32771,84,121,50,14
+    LTEXT           "ゲーム名:",-1,7,10,60,8
+    LTEXT           "ゲームコード:",-1,7,24,60,8
+    LTEXT           "メーカーコード:",-1,7,38,60,8
+    LTEXT           "メインユニットコード:",-1,7,66,66,8
+    LTEXT           "デバイスタイプ:",-1,7,80,60,8
+    LTEXT           "ロムバージョン:",-1,7,94,60,8
+    LTEXT           "CRC:",-1,7,108,60,8
+    LTEXT           "製造元:",-1,7,52,60,8
+    LTEXT           "",1079,80,10,133,8
+    LTEXT           "",1080,80,24,133,8
+    LTEXT           "",1081,80,38,133,8
+    LTEXT           "",1082,80,66,133,8
+    LTEXT           "",1083,80,80,133,8
+    LTEXT           "",1084,80,94,133,8
+    LTEXT           "",1085,80,108,133,8
+    LTEXT           "",1086,80,52,133,8
+END
+
+517 DIALOGEX 0, 0, 220, 225
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ロム情報"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",32771,84,200,50,14
+    LTEXT           "ゲーム名:",-1,7,10,60,8
+    LTEXT           "メーカーコード:",-1,7,38,60,8
+    LTEXT           "ユニットコード:",-1,7,68,60,8
+    LTEXT           "カートリッジタイプ:",-1,7,82,60,8
+    LTEXT           "ロムバージョン:",-1,7,152,60,8
+    LTEXT           "CRC:",-1,7,166,60,8
+    LTEXT           "",1079,80,10,133,8
+    LTEXT           "",1081,80,38,133,8
+    LTEXT           "",1082,80,68,133,8
+    LTEXT           "",1083,80,82,133,8
+    LTEXT           "",1084,80,152,133,8
+    LTEXT           "",1085,80,166,133,8
+    LTEXT           "カラー:",-1,7,24,60,8
+    LTEXT           "",1087,80,24,133,8
+    LTEXT           "ロムサイズ:",-1,7,96,60,8
+    LTEXT           "",1088,80,96,133,8
+    LTEXT           "セーブサイズ:",-1,7,110,60,8
+    LTEXT           "",1089,80,110,133,8
+    LTEXT           "Dest. コード:",-1,7,124,60,8
+    LTEXT           "",1090,80,124,133,8
+    LTEXT           "ライセンスコード:",-1,7,138,60,8
+    LTEXT           "",1091,80,138,133,8
+    LTEXT           "チェックサム:",-1,7,180,60,8
+    LTEXT           "",1092,80,180,133,8
+    LTEXT           "",1093,80,52,133,8
+    LTEXT           "製造元:",-1,7,52,60,8
+END
+
+518 DIALOGEX 0, 0, 286, 221
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ゲームボーイ チートリスト"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",1023,"SysListView32",LVS_REPORT | WS_BORDER | WS_GROUP | WS_TABSTOP,9,20,269,156
+    PUSHBUTTON      "GameGenie 追加(&G)...",1104,9,183,80,14,WS_GROUP
+    PUSHBUTTON      "GameShark 追加(&A)...",1441,103,183,80,14,WS_GROUP
+    PUSHBUTTON      "削除(&R)",1062,197,183,80,14
+    PUSHBUTTON      "すべて削除(&L)",1063,9,202,80,14
+    PUSHBUTTON      "コードON/OFF(&E)",1064,103,202,80,14
+    DEFPUSHBUTTON   "&OK",32771,197,202,80,14
+    LTEXT           "ステータス:",-1,10,9,46,8
+    LTEXT           "E: コードON",-1,195,9,36,8
+    LTEXT           "D: コードOFF",-1,241,9,38,8
+END
+
+519 DIALOGEX 0, 0, 182, 107
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "タイトル"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1074,60,7,120,14,ES_AUTOHSCROLL
+    EDITTEXT        1073,60,23,120,58,ES_MULTILINE | ES_UPPERCASE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "OK",32771,33,86,50,14
+    PUSHBUTTON      "キャンセル",32772,99,86,50,14
+    LTEXT           "説明(&D):",-1,3,10,54,8
+    LTEXT           "コード(&C):",-1,3,29,54,8
+END
+
+520 DIALOGEX 0, 0, 178, 209
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GB ポケットプリンタ"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "&1x",1100,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,166,22,10
+    CONTROL         "&2x",1101,"Button",BS_AUTORADIOBUTTON,55,166,23,10
+    CONTROL         "&3x",1102,"Button",BS_AUTORADIOBUTTON,98,166,23,10
+    CONTROL         "&4x",1103,"Button",BS_AUTORADIOBUTTON,141,166,23,10
+    DEFPUSHBUTTON   "印刷(&P)...",32774,7,190,50,14,WS_GROUP
+    PUSHBUTTON      "保存(&S)...",32773,64,190,50,14
+    PUSHBUTTON      "閉じる(&C)",32771,121,190,50,14
+    CONTROL         "",1094,"Static",SS_BLACKFRAME | WS_GROUP,7,6,162,146
+    GROUPBOX        "印刷サイズ",-1,7,156,162,25
+END
+
+521 DIALOGEX 0, 0, 135, 78
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "モーションセンサー"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1420,47,2,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1421,47,16,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1422,47,30,81,12,ES_AUTOHSCROLL
+    EDITTEXT        1423,47,44,81,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",32771,20,60,40,14
+    PUSHBUTTON      "キャンセル",32772,74,60,40,14
+    LTEXT           "↑:",-1,5,2,35,10
+    LTEXT           "↓:",-1,5,16,35,10
+    LTEXT           "←:",-1,5,30,35,10
+    LTEXT           "→:",-1,5,44,35,10
+END
+
+522 DIALOGEX 0, 0, 186, 68
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "言語の選択"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1097,140,25,40,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",32771,30,49,50,14
+    PUSHBUTTON      "キャンセル",32772,104,49,50,14
+    LTEXT           "システムの言語:",-1,6,9,123,8
+    LTEXT           "言語名の入力(3文字):",-1,6,30,127,8
+    LTEXT           "",1098,140,9,40,8
+END
+
+523 DIALOGEX 0, 0, 316, 235
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "インポートするコードの選択"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",32771,91,214,50,14
+    PUSHBUTTON      "キャンセル",32772,174,214,50,14
+    LISTBOX         1099,7,7,302,205,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+END
+
+524 DIALOGEX 36, 24, 202, 117
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "開く"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "ファイル名(&N):",1090,2,1,81,8
+    EDITTEXT        1152,0,10,104,12,ES_AUTOHSCROLL | ES_OEMCONVERT
+    LISTBOX         1120,1,24,104,53,LBS_SORT | LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "フォルダ(&F):",-1,112,1,53,9
+    LTEXT           "",1088,113,10,86,9,SS_NOPREFIX
+    LISTBOX         1121,112,24,88,52,LBS_SORT | LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ファイルの種類(&T):",1089,1,75,81,9
+    COMBOBOX        1136,1,87,104,13,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ドライブ(&V):",1091,113,76,70,9
+    COMBOBOX        1137,112,87,71,68,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,24,102,50,14,WS_GROUP
+    PUSHBUTTON      "キャンセル",IDCANCEL,90,102,50,14,WS_GROUP
+END
+
+526 DIALOGEX 0, 0, 322, 238
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "マップビュアー"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "フレーム 0",1113,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,22,41,10
+    CONTROL         "フレーム 1",1114,"Button",BS_AUTORADIOBUTTON,13,36,41,10
+    CONTROL         "BG0",1115,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,63,30,10
+    CONTROL         "BG1",1116,"Button",BS_AUTORADIOBUTTON,13,77,30,10
+    CONTROL         "BG2",1117,"Button",BS_AUTORADIOBUTTON,13,91,30,10
+    CONTROL         "BG3",1118,"Button",BS_AUTORADIOBUTTON,13,105,30,10
+    CONTROL         "引き伸ばし",1188,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,122,68,10
+    CONTROL         "自動更新",1204,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,134,55,10
+    PUSHBUTTON      "更新(&R)",1126,25,217,50,14,WS_GROUP
+    PUSHBUTTON      "保存(&S)...",1123,88,217,50,14,WS_GROUP
+    PUSHBUTTON      "閉じる(&C)",1128,155,217,50,14
+    CONTROL         "MapView",1120,"VbaBitmapControl",WS_GROUP | WS_TABSTOP,187,15,128,128
+    CONTROL         "Zoom",1132,"VbaZoomControl",WS_GROUP | WS_TABSTOP,7,148,64,64
+    CONTROL         "Color",1129,"VbaColorControl",WS_TABSTOP,187,164,48,47
+    LTEXT           "",1043,245,173,50,8
+    LTEXT           "",1044,245,185,50,8
+    LTEXT           "",1045,245,197,50,8
+    GROUPBOX        "フレーム",-1,7,11,63,37
+    GROUPBOX        "バックグラウンド",-1,7,52,63,67
+    LTEXT           "",1222,129,95,53,8
+    LTEXT           "マップ:",-1,80,15,34,8
+    LTEXT           "",1143,130,15,53,8
+    LTEXT           "マップベース:",-1,80,25,42,8
+    LTEXT           "",1145,130,25,53,8
+    LTEXT           "キャラベース:",-1,80,35,41,8
+    LTEXT           "",1147,130,35,53,8
+    LTEXT           "サイズ:",-1,80,45,37,8
+    LTEXT           "",1149,130,45,53,8
+    LTEXT           "カラー:",-1,80,55,37,8
+    LTEXT           "",1151,130,55,53,8
+    LTEXT           "優先度:",-1,80,65,37,8
+    LTEXT           "",1153,130,65,53,8
+    LTEXT           "モザイク:",-1,80,75,37,8
+    LTEXT           "",1154,130,75,53,8
+    LTEXT           "ｵｰﾊﾞｰﾌﾛｰ:",-1,80,85,39,8
+    LTEXT           "",1156,130,85,53,8
+    LTEXT           "アドレス:",-1,80,105,37,8
+    LTEXT           "",1042,130,105,53,8
+    LTEXT           "タイル:",-1,80,115,37,8
+    LTEXT           "",1459,130,115,53,8
+    LTEXT           "フリップ:",-1,80,125,37,8
+    LTEXT           "",1457,130,125,53,8
+    LTEXT           "パレット:",-1,80,135,37,8
+    LTEXT           "",1458,130,135,53,8
+END
+
+527 DIALOGEX 0, 0, 316, 266
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "パレットビュアー"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "BGの保存...",1130,30,245,50,14
+    PUSHBUTTON      "OBJの保存...",1131,98,245,50,14
+    PUSHBUTTON      "更新(&R)",1127,166,245,50,14
+    PUSHBUTTON      "閉じる(&C)",1128,234,245,50,14
+    LTEXT           "",1042,53,168,50,8
+    LTEXT           "",1043,53,180,50,8
+    LTEXT           "",1044,53,192,50,8
+    LTEXT           "",1045,53,204,50,8
+    LTEXT           "",1041,53,216,50,8
+    CONTROL         "Custom1",1129,"VbaColorControl",WS_TABSTOP,161,168,50,50
+    CONTROL         "PaletteViewBG",1121,"VbaPaletteViewControl",WS_TABSTOP,12,30,128,128
+    CONTROL         "PaletteViewBG",1122,"VbaPaletteViewControl",WS_TABSTOP,166,30,128,128
+    GROUPBOX        "バックグラウンド",-1,7,20,137,143
+    GROUPBOX        "スプライト",-1,161,20,137,143
+    LTEXT           "アドレス:",-1,7,168,38,8
+    LTEXT           "R:",-1,7,180,41,8
+    LTEXT           "G:",-1,7,192,43,8
+    LTEXT           "B:",-1,7,204,38,8
+    LTEXT           "値:",-1,7,216,38,8
+    LTEXT           "詳細を見るには色をクリックしてください",-1,7,7,302,8
+    CONTROL         "自動更新",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,229,71,10
+END
+
+528 DIALOGEX 0, 0, 380, 178
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "メモリビュアー"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    COMBOBOX        1134,7,7,109,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "8-bit",1136,"Button",BS_AUTORADIOBUTTON | WS_GROUP,120,9,29,10
+    CONTROL         "16-bit",1137,"Button",BS_AUTORADIOBUTTON,154,9,33,10
+    CONTROL         "32-bit",1138,"Button",BS_AUTORADIOBUTTON,192,9,33,10
+    EDITTEXT        1042,238,7,82,14,ES_UPPERCASE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_GROUP
+    DEFPUSHBUTTON   "移動(&G)",1135,323,7,50,14,WS_GROUP
+    CONTROL         "Viewer",1133,"VbaMemoryViewer",WS_TABSTOP,7,22,366,112
+    CONTROL         "自動更新",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,139,71,10
+    PUSHBUTTON      "更新(&R)",1126,67,157,50,14
+    PUSHBUTTON      "読込み(&L)...",1238,132,157,50,14
+    PUSHBUTTON      "保存(&S)...",1123,197,157,50,14
+    PUSHBUTTON      "閉じる(&C)",1128,262,157,50,14
+    LTEXT           "現在のアドレス:",1234,235,142,52,8
+    EDITTEXT        1233,291,139,82,14,ES_RIGHT | ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "小数点表示",1281,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,85,139,66,10
+    CONTROL         "16バイトで区切る",1282,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,159,139,65,10
+END
+
+530 DIALOGEX 0, 0, 234, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "OAM ビュアー"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1141,7,19,76,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    SCROLLBAR       1152,7,33,76,11
+    CONTROL         "引き伸ばし",1188,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,138,79,10
+    PUSHBUTTON      "更新(&R)",1126,7,164,50,14,WS_GROUP
+    PUSHBUTTON      "保存(&S)...",1123,91,164,50,14,WS_GROUP
+    PUSHBUTTON      "閉じる(&C)",1128,177,164,50,14
+    CONTROL         "MapView",1139,"VbaBitmapControl",WS_GROUP | WS_TABSTOP,87,7,64,64
+    CONTROL         "Zoom",1140,"VbaZoomControl",WS_GROUP | WS_TABSTOP,163,7,64,64
+    CONTROL         "Color",1129,"VbaColorControl",WS_TABSTOP,87,79,48,47
+    LTEXT           "",1142,31,47,50,8
+    LTEXT           "",1143,31,57,50,8
+    LTEXT           "",1144,31,67,50,8
+    LTEXT           "",1146,31,77,50,8
+    LTEXT           "",1148,31,87,50,8
+    LTEXT           "",1150,31,97,50,8
+    LTEXT           "",1155,31,107,50,8
+    LTEXT           "",1157,31,117,50,8
+    LTEXT           "",1158,31,127,50,8
+    LTEXT           "",1043,145,88,50,8
+    LTEXT           "",1044,145,100,50,8
+    LTEXT           "",1045,145,112,50,8
+    LTEXT           "位置:",-1,7,47,24,8
+    LTEXT           "モード:",-1,7,57,24,8
+    LTEXT           "色:",-1,7,67,24,8
+    LTEXT           "パレット:",-1,7,77,24,8
+    LTEXT           "タイル:",-1,7,87,24,8
+    LTEXT           "優先度:",-1,7,97,24,8
+    LTEXT           "サイズ:",-1,7,107,24,8
+    LTEXT           "スプライト:",-1,7,7,50,8
+    LTEXT           "回転:",-1,7,117,24,8
+    LTEXT           "フラグ:",-1,7,127,24,8
+    CONTROL         "自動更新",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,150,71,10
+END
+
+531 DIALOGEX 0, 0, 320, 180
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ショートカットキーの編集"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "コマンド:",-1,9,9,27,8
+    LTEXT           "現在のキー:",1183,156,9,43,8
+    LTEXT           "新しいショートカットキー:",1185,156,87,99,8
+    LTEXT           "Static",1167,7,162,306,8,SS_CENTERIMAGE
+    LTEXT           "次のキーに割り当て済み:",1184,7,148,85,8
+    LTEXT           "(ミリ秒、0で無効)",1375,156,148,101,8
+    LTEXT           "入力のタイムアウト:",1186,156,136,89,8
+    CONTROL         "",1159,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,18,139,124
+    EDITTEXT        1164,156,100,100,12,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    CONTROL         "",1372,"msctls_progress32",PBS_SMOOTH | WS_BORDER,156,116,100,14
+    CONTROL         "",1161,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | LVS_ALIGNLEFT | LVS_NOSCROLL | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,156,19,100,63
+    DEFPUSHBUTTON   "&OK",32771,263,7,50,14
+    PUSHBUTTON      "キャンセル",32772,263,25,50,14
+    PUSHBUTTON      "適用(&A)",1368,264,44,49,14
+    PUSHBUTTON      "挿入(&I)",1162,263,82,50,14
+    PUSHBUTTON      "削除(&D)",1062,263,100,50,14
+    PUSHBUTTON      "入替(&R)",1370,263,118,50,14
+    EDITTEXT        1373,265,143,48,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+532 DIALOGEX 0, 0, 326, 266
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "タイルビュアー"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "16",1168,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,20,24,10
+    CONTROL         "256",1169,"Button",BS_AUTORADIOBUTTON,13,30,28,10
+    CONTROL         "0x6000000",1170,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,57,51,10
+    CONTROL         "0x6004000",1171,"Button",BS_AUTORADIOBUTTON,13,67,51,10
+    CONTROL         "0x6008000",1172,"Button",BS_AUTORADIOBUTTON,13,77,51,10
+    CONTROL         "0x600C000",1173,"Button",BS_AUTORADIOBUTTON,13,87,52,10
+    CONTROL         "0x6010000",1174,"Button",BS_AUTORADIOBUTTON,13,97,49,10
+    CONTROL         "Slider1",1165,"msctls_trackbar32",TBS_AUTOTICKS | WS_GROUP | WS_TABSTOP,1,124,76,22
+    CONTROL         "引き伸ばし",1188,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,149,79,10
+    PUSHBUTTON      "更新",1126,7,245,50,14,WS_GROUP
+    PUSHBUTTON      "保存...",1123,138,245,50,14
+    PUSHBUTTON      "閉じる",1128,269,245,50,14
+    CONTROL         "Custom1",1166,"VbaBitmapControl",WS_GROUP | WS_TABSTOP,191,7,128,128
+    GROUPBOX        "色数",-1,7,7,66,38
+    GROUPBOX        "キャラベース",-1,7,46,65,64
+    CONTROL         "Zoom",1132,"VbaZoomControl",WS_GROUP | WS_TABSTOP,7,174,64,64
+    CONTROL         "Color",1129,"VbaColorControl",WS_TABSTOP,98,183,48,47
+    LTEXT           "",1043,156,192,50,8
+    LTEXT           "",1044,156,204,50,8
+    LTEXT           "",1045,156,216,50,8
+    LTEXT           "パレット:",-1,7,113,65,8
+    CONTROL         "自動更新",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,160,71,10
+    LTEXT           "タイル:",-1,79,14,41,8
+    LTEXT           "アドレス:",-1,79,26,41,8
+    LTEXT           "",1221,135,14,50,8
+    LTEXT           "",1042,135,26,50,8
+END
+
+533 DIALOGEX 0, 0, 169, 121
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ゲームボーイ モノクロカラー"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "デフォルト",1191,"Button",BS_AUTORADIOBUTTON | WS_GROUP,7,7,39,10
+    CONTROL         "設定 1",1192,"Button",BS_AUTORADIOBUTTON,67,7,37,10
+    CONTROL         "設定 2",1193,"Button",BS_AUTORADIOBUTTON,125,7,37,10
+    COMBOBOX        1251,7,21,155,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",1175,15,47,28,14,WS_GROUP
+    PUSHBUTTON      "",1176,52,47,28,14
+    PUSHBUTTON      "",1177,89,47,28,14
+    PUSHBUTTON      "",1178,126,47,28,14
+    PUSHBUTTON      "",1179,15,78,28,14
+    PUSHBUTTON      "",1180,52,78,28,14
+    PUSHBUTTON      "",1181,89,78,28,14
+    PUSHBUTTON      "",1182,126,78,28,14
+    PUSHBUTTON      "リセット",1163,7,100,50,14
+    DEFPUSHBUTTON   "OK",32771,59,100,50,14
+    PUSHBUTTON      "キャンセル",32772,111,100,50,14
+    GROUPBOX        "バックグラウンド",-1,8,37,154,29
+    GROUPBOX        "スプライト",-1,8,67,154,30
+END
+
+534 DIALOGEX 0, 0, 402, 255
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "逆アセンブル"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "自動認識",1199,"Button",BS_AUTORADIOBUTTON | WS_GROUP,7,9,43,10
+    CONTROL         "ARM",1200,"Button",BS_AUTORADIOBUTTON,62,9,32,10
+    CONTROL         "THUMB",1201,"Button",BS_AUTORADIOBUTTON,103,9,42,10
+    EDITTEXT        1042,158,7,65,14,ES_UPPERCASE | ES_AUTOHSCROLL | WS_GROUP
+    DEFPUSHBUTTON   "移動",1135,232,7,50,14
+    LISTBOX         1196,7,25,276,181,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    CONTROL         "自動更新",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,212,71,10
+    PUSHBUTTON      "更新",1126,120,231,50,14
+    PUSHBUTTON      "次へ",1021,233,231,50,14
+    PUSHBUTTON      "閉じる",1128,346,231,50,14
+    LTEXT           "R0:",-1,309,7,18,8
+    LTEXT           "R1:",-1,309,17,18,8
+    LTEXT           "R2:",-1,309,27,18,8
+    LTEXT           "R3:",-1,309,37,18,8
+    LTEXT           "R4:",-1,309,47,18,8
+    LTEXT           "R5:",-1,309,57,18,8
+    LTEXT           "R6:",-1,309,67,18,8
+    LTEXT           "R7:",-1,309,77,18,8
+    LTEXT           "R8:",-1,309,87,18,8
+    LTEXT           "R9:",-1,309,97,18,8
+    LTEXT           "R10:",-1,309,107,18,8
+    LTEXT           "R11:",-1,309,117,18,8
+    LTEXT           "R12:",-1,309,127,18,8
+    LTEXT           "R13:",-1,309,137,18,8
+    LTEXT           "R14:",-1,309,147,18,8
+    LTEXT           "R15:",-1,309,157,18,8
+    LTEXT           "R16:",-1,309,167,20,8
+    LTEXT           "",1000,344,5,52,10,SS_NOPREFIX
+    LTEXT           "",1001,344,15,52,10,SS_NOPREFIX
+    LTEXT           "",1002,344,25,52,10,SS_NOPREFIX
+    LTEXT           "",1003,344,35,52,10,SS_NOPREFIX
+    LTEXT           "",1004,344,45,52,10,SS_NOPREFIX
+    LTEXT           "",1005,344,55,52,10,SS_NOPREFIX
+    LTEXT           "",1006,344,65,52,10,SS_NOPREFIX
+    LTEXT           "",1007,344,75,52,10,SS_NOPREFIX
+    LTEXT           "",1008,344,85,52,10,SS_NOPREFIX
+    LTEXT           "",1009,344,95,52,10,SS_NOPREFIX
+    LTEXT           "",1010,344,105,52,10,SS_NOPREFIX
+    LTEXT           "",1011,344,115,52,10,SS_NOPREFIX
+    LTEXT           "",1012,344,125,52,10,SS_NOPREFIX
+    LTEXT           "",1013,344,135,52,10,SS_NOPREFIX
+    LTEXT           "",1014,344,145,52,10,SS_NOPREFIX
+    LTEXT           "",1015,344,155,52,10,SS_NOPREFIX
+    LTEXT           "",1016,344,165,52,10,SS_NOPREFIX
+    CONTROL         "N",1210,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,309,178,21,10
+    CONTROL         "Z",1211,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,309,188,21,10
+    CONTROL         "C",1212,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,309,198,21,10
+    CONTROL         "V",1213,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,309,212,21,10
+    CONTROL         "I",1215,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,342,178,21,10
+    CONTROL         "F",1214,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,342,188,21,10
+    CONTROL         "T",1216,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,342,198,21,10
+    LTEXT           "モード:",-1,341,215,21,8
+    LTEXT           "",1143,373,215,21,14,SS_NOPREFIX
+    SCROLLBAR       1218,283,25,10,181,SBS_VERT
+    PUSHBUTTON      "R15へ移動",1124,7,231,50,14
+END
+
+535 DIALOGEX 0, 0, 186, 51
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GDB 接続"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",32771,34,30,50,14
+    PUSHBUTTON      "キャンセル",32772,102,30,50,14
+    LTEXT           "接続を待つポート:",-1,7,10,105,8
+    EDITTEXT        1217,125,7,54,14,ES_RIGHT | ES_AUTOHSCROLL
+END
+
+536 DIALOGEX 0, 0, 186, 44
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "待機中..."
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "キャンセル",32772,67,23,50,14
+    LTEXT           "接続を待機しているポート:",-1,7,7,117,8
+    LTEXT           "",1217,143,7,36,8
+END
+
+537 DIALOGEX 0, 0, 366, 218
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ログ"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "SWI",1223,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,17,87,10
+    CONTROL         "未割り当てメモリ",1224,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,30,87,10
+    CONTROL         "不正な書き込み",1225,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,43,87,10
+    CONTROL         "不正な読み込み",1226,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,56,87,10
+    CONTROL         "DMA 0",1227,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,69,87,10
+    CONTROL         "DMA 1",1228,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,82,87,10
+    CONTROL         "DMA 2",1229,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,95,87,10
+    CONTROL         "DMA 3",1230,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,108,87,10
+    CONTROL         "未定義命令",1231,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,121,87,10
+    CONTROL         "AGBPrint",1232,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,134,87,10
+    EDITTEXT        1219,107,7,252,183,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "保存...",1123,75,197,50,14
+    PUSHBUTTON      "クリア",1220,137,197,50,14
+    DEFPUSHBUTTON   "OK",32771,197,197,50,14
+    GROUPBOX        "表示",-1,7,7,93,142
+END
+
+538 DIALOGEX 0, 0, 248, 148
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ゲームシャーク スナップショットにエクスポート"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1235,84,7,157,14,ES_AUTOHSCROLL
+    EDITTEXT        1074,84,27,157,14,ES_AUTOHSCROLL
+    EDITTEXT        1236,84,47,157,73,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "OK",32771,67,127,50,14
+    PUSHBUTTON      "キャンセル",32772,130,127,50,14
+    LTEXT           "タイトル:",-1,7,8,62,8
+    LTEXT           "説明:",-1,7,28,63,8
+    LTEXT           "情報:",-1,7,48,60,8
+END
+
+539 DIALOGEX 0, 0, 186, 67
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "アドレスとサイズの入力"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1042,99,6,80,14,ES_AUTOHSCROLL
+    EDITTEXT        1239,99,26,80,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",32771,34,46,50,14
+    PUSHBUTTON      "キャンセル",32772,102,46,50,14
+    LTEXT           "アドレス:",-1,7,11,65,8
+    LTEXT           "サイズ:",-1,7,29,65,8
+END
+
+540 DIALOGEX 0, 0, 208, 129
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ビデオモードの選択"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LISTBOX         1240,7,18,194,80,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",32771,45,108,50,14
+    PUSHBUTTON      "キャンセル",32772,112,108,50,14
+    LTEXT           "有効なビデオモード:",-1,7,7,194,8
+END
+
+542 DIALOGEX 0, 0, 208, 121
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ビデオドライバの選択"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LISTBOX         1241,7,17,194,80,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",32771,45,104,50,14
+    PUSHBUTTON      "キャンセル",32772,112,104,50,14
+    LTEXT           "有効なドライバ:",-1,7,7,194,8
+END
+
+543 DIALOGEX 0, 0, 186, 63
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "実行速度の変更"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1242,7,20,172,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",32771,37,42,50,14
+    PUSHBUTTON      "キャンセル",32772,99,42,50,14
+    LTEXT           "実行速度を入力して下さい(1～1000%):",-1,7,7,172,8
+END
+
+544 DIALOGEX 0, 0, 344, 225
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "GB 逆アセンブル"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1042,7,7,65,14,ES_UPPERCASE | ES_AUTOHSCROLL | WS_GROUP
+    DEFPUSHBUTTON   "移動",1135,81,7,50,14
+    LISTBOX         1196,7,25,222,161,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    CONTROL         "自動更新",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,191,71,10
+    PUSHBUTTON      "更新",1126,100,204,50,14
+    PUSHBUTTON      "次へ",1021,193,204,50,14
+    PUSHBUTTON      "閉じる",1128,287,204,50,14
+    LTEXT           "AF:",-1,250,25,18,8
+    LTEXT           "BC:",-1,250,35,18,8
+    LTEXT           "DE:",-1,250,45,18,8
+    LTEXT           "HL:",-1,250,55,18,8
+    LTEXT           "SP:",-1,250,65,18,8
+    LTEXT           "PC:",-1,250,75,18,8
+    LTEXT           "IFF:",-1,250,85,18,8
+    LTEXT           "",1000,285,25,52,10
+    LTEXT           "",1001,285,35,52,10
+    LTEXT           "",1002,285,45,52,10
+    LTEXT           "",1003,285,55,52,10
+    LTEXT           "",1004,285,65,52,10
+    LTEXT           "",1005,285,75,52,10
+    LTEXT           "",1006,285,85,52,10
+    CONTROL         "N",1210,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,250,109,21,10
+    CONTROL         "Z",1211,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,250,97,21,10
+    CONTROL         "C",1212,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,250,133,21,10
+    CONTROL         "H",1243,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,250,121,21,10
+    SCROLLBAR       1218,229,25,10,161,SBS_VERT
+    PUSHBUTTON      "PCへ移動",1124,7,204,50,14
+END
+
+545 DIALOGEX 0, 0, 234, 185
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "GB OAMビュアー"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1141,7,19,76,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    SCROLLBAR       1152,7,33,76,11
+    CONTROL         "引き延ばす",1188,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,138,79,10
+    PUSHBUTTON      "更新(&R)",1126,7,164,50,14,WS_GROUP
+    PUSHBUTTON      "保存(&S)...",1123,91,164,50,14,WS_GROUP
+    PUSHBUTTON      "閉じる(&C)",1128,177,164,50,14
+    CONTROL         "MapView",1139,"VbaBitmapControl",WS_GROUP | WS_TABSTOP,87,7,64,64
+    CONTROL         "Zoom",1140,"VbaZoomControl",WS_GROUP | WS_TABSTOP,163,7,64,64
+    CONTROL         "Color",1129,"VbaColorControl",WS_TABSTOP,87,79,48,47
+    LTEXT           "",1142,31,47,50,8
+    LTEXT           "",1146,31,87,50,8
+    LTEXT           "",1148,31,57,50,8
+    LTEXT           "",1150,31,67,50,8
+    LTEXT           "",1244,31,77,50,8
+    LTEXT           "",1158,31,97,50,8
+    LTEXT           "",1043,145,88,50,8
+    LTEXT           "",1044,145,100,50,8
+    LTEXT           "",1045,145,112,50,8
+    LTEXT           "位置:",-1,7,47,24,8
+    LTEXT           "ﾊﾟﾚｯﾄ:",-1,7,87,24,8
+    LTEXT           "タイル:",-1,7,57,24,8
+    LTEXT           "優先度:",-1,7,67,24,8
+    LTEXT           "OAP:",-1,7,77,24,8
+    LTEXT           "スプライト:",-1,7,7,50,8
+    LTEXT           "フラグ:",-1,7,97,24,8
+    CONTROL         "自動更新",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,150,71,10
+    LTEXT           "",1160,31,107,50,8
+    LTEXT           "バンク:",-1,7,107,24,8
+END
+
+546 DIALOGEX 0, 0, 326, 238
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "GB タイルビュアー"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "0",1245,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,20,20,10
+    CONTROL         "1",1246,"Button",BS_AUTORADIOBUTTON,13,30,20,10
+    CONTROL         "0x8000",1170,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,57,39,10
+    CONTROL         "0x8800",1171,"Button",BS_AUTORADIOBUTTON,13,67,39,10
+    CONTROL         "引き伸ばし",1188,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,122,79,10
+    PUSHBUTTON      "更新",1126,7,217,50,14,WS_GROUP
+    PUSHBUTTON      "保存...",1123,138,217,50,14
+    PUSHBUTTON      "閉じる",1128,269,217,50,14
+    CONTROL         "Custom1",1166,"VbaBitmapControl",WS_GROUP | WS_TABSTOP,191,7,128,128
+    GROUPBOX        "VRAM バンク",-1,7,7,66,38
+    GROUPBOX        "キャラベース",-1,7,46,65,35
+    CONTROL         "Zoom",1132,"VbaZoomControl",WS_GROUP | WS_TABSTOP,7,147,64,64
+    CONTROL         "Color",1129,"VbaColorControl",WS_TABSTOP,98,156,48,47
+    LTEXT           "",1043,156,164,50,8
+    LTEXT           "",1044,156,176,50,8
+    LTEXT           "",1045,156,188,50,8
+    LTEXT           "パレット:",-1,7,86,65,8
+    CONTROL         "自動更新",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,133,71,10
+    LTEXT           "タイル:",-1,79,14,41,8
+    LTEXT           "アドレス:",-1,79,26,41,8
+    LTEXT           "",1221,135,14,50,8
+    LTEXT           "",1042,135,26,50,8
+    CONTROL         "Slider1",1165,"msctls_trackbar32",TBS_AUTOTICKS | WS_GROUP | WS_TABSTOP,1,98,76,22
+END
+
+547 DIALOGEX 0, 0, 322, 238
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "GB マップビュアー"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "0x8000",1245,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,22,39,10
+    CONTROL         "0x8800",1246,"Button",BS_AUTORADIOBUTTON,13,36,39,10
+    CONTROL         "0x9800",1115,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,63,39,10
+    CONTROL         "0x9C00",1116,"Button",BS_AUTORADIOBUTTON,13,77,40,10
+    CONTROL         "引き伸ばし",1188,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,122,68,10
+    PUSHBUTTON      "更新(&R)",1126,25,217,50,14,WS_GROUP
+    PUSHBUTTON      "保存(&S)...",1123,88,217,50,14,WS_GROUP
+    PUSHBUTTON      "閉じる(&C)",1128,155,217,50,14
+    CONTROL         "MapView",1120,"VbaBitmapControl",WS_GROUP | WS_TABSTOP,187,15,128,128
+    CONTROL         "Zoom",1132,"VbaZoomControl",WS_GROUP | WS_TABSTOP,7,148,64,64
+    CONTROL         "Color",1129,"VbaColorControl",WS_TABSTOP,187,164,48,47
+    LTEXT           "",1043,245,173,50,8
+    LTEXT           "",1044,245,185,50,8
+    LTEXT           "",1045,245,197,50,8
+    GROUPBOX        "キャラベース",-1,7,11,63,37
+    GROUPBOX        "マップベース",-1,7,52,63,41
+    CONTROL         "自動更新",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,134,55,10
+    LTEXT           "",1222,129,18,53,8
+    LTEXT           "優先度:",-1,80,68,37,8
+    LTEXT           "",1153,130,68,53,8
+    LTEXT           "アドレス:",-1,80,28,37,8
+    LTEXT           "",1042,130,28,53,8
+    LTEXT           "タイル:",-1,80,38,37,8
+    LTEXT           "",1459,130,38,53,8
+    LTEXT           "フリップ:",-1,80,48,37,8
+    LTEXT           "",1457,130,48,53,8
+    LTEXT           "パレット:",-1,80,58,37,8
+    LTEXT           "",1458,130,58,53,8
+END
+
+548 DIALOGEX 0, 0, 196, 234
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "GB パレットビュアー"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "BGの保存...",1130,7,191,50,14
+    PUSHBUTTON      "OBJの保存...",1131,73,191,50,14
+    PUSHBUTTON      "更新(&R)",1127,139,191,50,14
+    PUSHBUTTON      "閉じる(&C)",1128,73,213,50,14
+    LTEXT           "",1042,53,117,50,8
+    LTEXT           "",1043,53,129,50,8
+    LTEXT           "",1044,53,141,50,8
+    LTEXT           "",1045,53,153,50,8
+    LTEXT           "",1041,53,165,50,8
+    CONTROL         "Custom1",1129,"VbaColorControl",WS_TABSTOP,119,117,50,50
+    CONTROL         "PaletteViewBG",1121,"VbaPaletteViewControl",WS_TABSTOP,11,30,64,64
+    CONTROL         "PaletteViewBG",1122,"VbaPaletteViewControl",WS_TABSTOP,120,30,64,64
+    GROUPBOX        "バックグラウンド",-1,6,20,74,81
+    GROUPBOX        "スプライト",-1,115,20,74,81
+    LTEXT           "Index:",-1,7,117,38,8
+    LTEXT           "R:",-1,7,129,41,8
+    LTEXT           "G:",-1,7,141,43,8
+    LTEXT           "B:",-1,7,153,38,8
+    LTEXT           "値:",-1,7,165,38,8
+    LTEXT           "詳細を表示するには色をクリックしてください",-1,7,7,182,8
+    CONTROL         "自動更新",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,178,71,10
+END
+
+549 DIALOGEX 0, 0, 186, 57
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "モードの確認"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",32771,31,36,50,14
+    PUSHBUTTON      "キャンセル",32772,103,36,50,14
+    CTEXT           "このモードを維持しますか?",-1,7,7,172,8
+    CTEXT           "",1247,7,19,172,8
+END
+
+550 DIALOGEX 0, 0, 188, 132
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "巻き戻す間隔の選択"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1248,7,26,174,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",32771,37,111,50,14
+    PUSHBUTTON      "キャンセル",32772,99,111,50,14
+    LTEXT           "巻き戻す間隔（0.2 ... 600）を入力してください:",-1,7,7,174,8
+    LTEXT           "巻き戻し機能を使用しない場合は、0を入力して下さい",-1,7,15,174,8
+    EDITTEXT        1249,7,66,174,14,ES_AUTOHSCROLL
+    LTEXT           "巻き戻しスロットの数（1...256）を入力",-1,7,46,174,8
+    LTEXT           "巻き戻し機能を使用しない場合は、0を入力して下さい",-1,7,55,174,8
+    LTEXT           "有効にすると、ファイル->巻き戻しは、<間隔>秒だけ、<スロット>間隔だけ戻って状態を復元します。",-1,7,87,173,17
+END
+
+551 DIALOGEX 0, 0, 269, 238
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "I/O Viewer"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    COMBOBOX        1134,7,7,255,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "",1041,103,23,159,8
+    CONTROL         "",1395,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,34,255,10
+    CONTROL         "",1394,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,44,255,10
+    CONTROL         "",1393,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,54,255,10
+    CONTROL         "",1392,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,64,255,10
+    CONTROL         "",1391,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,74,255,10
+    CONTROL         "",1390,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,84,255,10
+    CONTROL         "",1389,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,94,255,10
+    CONTROL         "",1388,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,104,255,10
+    CONTROL         "",1387,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,114,255,10
+    CONTROL         "",1386,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,124,255,10
+    CONTROL         "",1385,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,134,255,10
+    CONTROL         "",1384,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,144,255,10
+    CONTROL         "",1383,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,154,255,10
+    CONTROL         "",1382,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,164,255,10
+    CONTROL         "",1381,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,174,255,10
+    CONTROL         "",1380,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,184,255,10
+    CONTROL         "自動更新",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,201,71,10
+    DEFPUSHBUTTON   "更新(&R)",1126,54,221,50,14
+    DEFPUSHBUTTON   "適用(&A)",1125,110,221,50,14
+    PUSHBUTTON      "閉じる(&C)",1128,166,221,50,14
+    LTEXT           "値:",-1,7,23,72,8
+END
+
+554 DIALOGEX 0, 0, 186, 68
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "フルスクリーンの比率"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        1041,7,28,172,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",32771,37,47,50,14
+    PUSHBUTTON      "キャンセル",32772,99,47,50,14
+    LTEXT           "最大フルスクリーン比率を入力してください:",-1,7,7,172,8
+    LTEXT           "0を入力すると最大の比率を使用します",-1,7,17,172,8
+END
+
+555 DIALOGEX 0, 0, 296, 186
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "バグ報告"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "&OK",32771,157,165,50,14
+    EDITTEXT        1252,11,22,278,131,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
+    LTEXT           "バグ報告の内容:",-1,7,7,282,8
+    DEFPUSHBUTTON   "コピー(&C)",1253,87,164,50,14
+END
+
+556 DIALOGEX 0, 0, 320, 168
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ムービーの記録"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,193,147,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,256,147,50,14
+    EDITTEXT        1408,7,18,250,13,ES_AUTOHSCROLL
+    LTEXT           "ムービーファイル",-1,7,7,61,8
+    PUSHBUTTON      "参照(&B)...",1254,264,17,48,14
+    EDITTEXT        1399,57,35,200,14,ES_AUTOHSCROLL
+    LTEXT           "作者:",-1,7,38,43,8,0,WS_EX_RIGHT
+    EDITTEXT        1400,57,52,255,14,ES_AUTOHSCROLL
+    LTEXT           "説明:",-1,7,55,43,8,0,WS_EX_RIGHT
+    GROUPBOX        "システム",-1,115,74,89,64
+    CONTROL         "ゲームボーイアドバンス",1257,"Button",BS_AUTORADIOBUTTON | WS_GROUP,118,86,84,10
+    CONTROL         "ゲームボーイカラー",1258,"Button",BS_AUTORADIOBUTTON,118,99,67,10
+    CONTROL         "スーパーゲームボーイ",1259,"Button",BS_AUTORADIOBUTTON,118,112,80,10
+    CONTROL         "ゲームボーイ",1261,"Button",BS_AUTORADIOBUTTON,118,124,49,10
+    GROUPBOX        "BIOSの設定",-1,214,74,88,64
+    GROUPBOX        "録画の設定",-1,18,74,85,64
+    CONTROL         "今すぐ (状態保存)",1401,"Button",BS_AUTORADIOBUTTON | WS_GROUP,21,118,77,10
+    CONTROL         "リセット (SRAM)",1402,"Button",BS_AUTORADIOBUTTON,21,104,75,10
+    CONTROL         "スタート (電源ON)",1403,"Button",BS_AUTORADIOBUTTON,21,90,78,10
+    CONTROL         "BIOSなし",1404,"Button",BS_AUTORADIOBUTTON | WS_GROUP,218,86,44,10
+    CONTROL         "エミュのBIOS",1405,"Button",BS_AUTORADIOBUTTON,218,99,67,10
+    CONTROL         "GBA BIOS",1406,"Button",BS_AUTORADIOBUTTON,218,112,49,10
+    CONTROL         "GBA BIOS(イントロあり)",1407,"Button",BS_AUTORADIOBUTTON,218,124,83,10
+END
+
+557 DIALOGEX 0, 0, 320, 240
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ムービーの再生"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,196,214,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,255,214,50,14
+    EDITTEXT        1408,7,18,250,13,ES_AUTOHSCROLL
+    LTEXT           "ムービーファイル",-1,7,7,52,8
+    PUSHBUTTON      "参照(&B)...",1254,265,17,48,14
+    LTEXT           "録画した日時:",-1,12,87,53,8
+    LTEXT           "長さ:",-1,40,99,25,8
+    LTEXT           "フレーム:",-1,30,111,36,8
+    LTEXT           "追記回数:",-1,21,123,44,8
+    LTEXT           "DATE",1410,68,87,124,8
+    LTEXT           "LENGTH",1411,68,99,93,8
+    LTEXT           "FRAMES",1412,68,111,67,8
+    LTEXT           "RERECORD",1413,68,123,46,8
+    CONTROL         "読み取り専用で開く",1398,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,175,7,84,10
+    LTEXT           "OKを押すとムービーの再生を開始します。\nゲームのSRAMを消去または上書きしたり、エミュレータの\n設定が変更されることがありますので注意してください。",-1,8,209,177,24
+    LTEXT           "ムービーのロム: ...",1416,8,34,300,8
+    LTEXT           "現在のロム: ...",1417,12,43,295,9,0,WS_EX_TRANSPARENT
+    EDITTEXT        1399,57,54,200,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "作者:",-1,7,56,43,8,0,WS_EX_RIGHT
+    EDITTEXT        1400,57,68,255,12,ES_AUTOHSCROLL
+    LTEXT           "説明:",-1,7,69,43,8,0,WS_EX_RIGHT
+    GROUPBOX        "システム",-1,111,137,88,64
+    RADIOBUTTON     "ゲームボーイアドバンス",1257,115,149,83,10,WS_DISABLED | WS_GROUP
+    RADIOBUTTON     "ゲームボーイカラー",1258,115,162,67,10,WS_DISABLED
+    RADIOBUTTON     "スーパーゲームボーイ",1259,115,175,81,10,WS_DISABLED
+    RADIOBUTTON     "ゲームボーイ",1261,115,187,49,10,WS_DISABLED
+    GROUPBOX        "録画の設定",-1,18,137,77,64
+    RADIOBUTTON     "状態保存から",1401,22,180,62,10,WS_DISABLED | WS_GROUP
+    RADIOBUTTON     "リセット/SRAM",1402,22,167,70,10,WS_DISABLED
+    RADIOBUTTON     "電源ON",1403,22,153,63,10,WS_DISABLED
+    RADIOBUTTON     "BIOSなし",1404,219,149,44,10,WS_DISABLED | WS_GROUP
+    RADIOBUTTON     "エミュのBIOS",1405,219,162,67,10,WS_DISABLED
+    RADIOBUTTON     "GBA BIOS",1406,219,175,49,10,WS_DISABLED
+    RADIOBUTTON     "GBA BIOS(イントロあり)",1407,219,187,85,10,WS_DISABLED
+    GROUPBOX        "BIOSの設定",-1,214,137,89,64
+    PUSHBUTTON      "更新(&R)",1409,265,3,48,14
+    EDITTEXT        1262,254,109,45,12,ES_AUTOHSCROLL
+    CONTROL         "次のフレームで停止:",1263,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,175,110,77,10
+    CONTROL         "SGBフレームを隠す",1265,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,116,123,70,10
+END
+
+558 DIALOGEX 0, 0, 139, 120
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "テキストの設定"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,69,99,63,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,7,99,53,14
+    GROUPBOX        "色",-1,7,7,54,86
+    CONTROL         "White",1266,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,16,35,8
+    CONTROL         "Red",1267,"Button",BS_AUTORADIOBUTTON,13,25,29,8
+    CONTROL         "Yellow",1268,"Button",BS_AUTORADIOBUTTON,13,34,36,9
+    CONTROL         "Green",1269,"Button",BS_AUTORADIOBUTTON,13,43,35,9
+    CONTROL         "Cyan",1270,"Button",BS_AUTORADIOBUTTON,13,53,33,8
+    CONTROL         "Blue",1271,"Button",BS_AUTORADIOBUTTON,13,63,29,8
+    CONTROL         "Magenta",1272,"Button",BS_AUTORADIOBUTTON,13,72,44,8
+    CONTROL         "Black",1273,"Button",BS_AUTORADIOBUTTON,13,82,32,8
+    CONTROL         "Outlined",1274,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,74,17,43,10
+    CONTROL         "Transparent",1275,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,74,28,55,10
+    GROUPBOX        "モード",-1,69,7,63,36
+    GROUPBOX        "表示",-1,69,48,63,45
+    CONTROL         "In Game",1276,"Button",BS_AUTORADIOBUTTON | WS_GROUP,73,58,43,10
+    CONTROL         "On Game",1277,"Button",BS_AUTORADIOBUTTON,73,69,45,10
+    CONTROL         "On Screen",1278,"Button",BS_AUTORADIOBUTTON,73,80,49,10
+END
+
+559 DIALOGEX 0, 0, 270, 150
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Luaスクリプト"
+MENU LUAWINDOW_MENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "参照...",1286,7,31,48,16
+    PUSHBUTTON      "実行",1362,213,31,50,16
+    PUSHBUTTON      "停止",1363,160,31,50,16
+    EDITTEXT        1285,7,16,256,14,ES_AUTOHSCROLL
+    EDITTEXT        1364,7,61,256,81,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    LTEXT           "出力コンソール",-1,7,51,51,8
+    LTEXT           "スクリプトファイル",-1,7,7,32,8
+    PUSHBUTTON      "編集",1365,58,31,46,16
+END
+
+560 DIALOGEX 0, 0, 182, 113
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_THICKFRAME
+CAPTION "ファイルの選択"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,128,94,50,16
+    PUSHBUTTON      "キャンセル",32772,73,94,50,16
+    LISTBOX         1361,4,4,173,87,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+561 DIALOGEX 0, 0, 287, 292
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION " メモリサーチ"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",41133,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_OWNERDATA | WS_BORDER | WS_TABSTOP,9,9,214,151,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "検索(&S)",41134,226,9,52,16
+    PUSHBUTTON      "チート追加(&A)",41135,226,145,52,16
+    PUSHBUTTON      "監視(&W)",41139,226,127,52,16
+    PUSHBUTTON      "リセット(&R)",41136,226,27,52,16
+    PUSHBUTTON      "同じ値(&E)",42174,226,109,52,16
+    GROUPBOX        "比較形式",-1,10,166,102,118,0,WS_EX_TRANSPARENT
+    CONTROL         "小さい値",41141,"Button",BS_AUTORADIOBUTTON | WS_GROUP,14,178,95,11
+    CONTROL         "大きい値",41142,"Button",BS_AUTORADIOBUTTON,14,191,95,11
+    CONTROL         "小さいか同じ値",41143,"Button",BS_AUTORADIOBUTTON,14,204,95,11
+    CONTROL         "大きいか同じ値",41144,"Button",BS_AUTORADIOBUTTON,14,217,95,11
+    CONTROL         "同じ値",41145,"Button",BS_AUTORADIOBUTTON,14,230,95,11
+    CONTROL         "違う値",41146,"Button",BS_AUTORADIOBUTTON,14,243,95,11
+    CONTROL         "次の差異:",41147,"Button",BS_AUTORADIOBUTTON,14,256,52,11
+    CONTROL         "Modulo",41148,"Button",BS_AUTORADIOBUTTON,14,269,35,11
+    EDITTEXT        41093,69,255,38,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        41095,51,267,38,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "比較形式",-1,118,166,153,58,0,WS_EX_TRANSPARENT
+    CONTROL         "前回の値",42147,"Button",BS_AUTORADIOBUTTON | WS_GROUP,121,176,67,10
+    CONTROL         "指定した値:",42148,"Button",BS_AUTORADIOBUTTON,121,187,67,10
+    CONTROL         "S指定したアドレス:",42157,"Button",BS_AUTORADIOBUTTON,121,198,75,10
+    CONTROL         "変更の数:",42158,"Button",BS_AUTORADIOBUTTON,121,209,76,10
+    EDITTEXT        41090,203,183,63,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        41091,203,195,63,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        41092,203,207,63,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "データ表示形式",-1,196,227,75,44,0,WS_EX_TRANSPARENT
+    CONTROL         "符号あり",1037,"Button",BS_AUTORADIOBUTTON | WS_GROUP,200,237,67,8
+    CONTROL         "符号なし",1038,"Button",BS_AUTORADIOBUTTON,200,248,67,8
+    CONTROL         "16進",41151,"Button",BS_AUTORADIOBUTTON,200,259,67,8
+    CONTROL         "自動検索",41094,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,200,273,52,11
+    GROUPBOX        "データサイズ",-1,117,227,73,57,0,WS_EX_TRANSPARENT
+    CONTROL         "1 バイト",41137,"Button",BS_AUTORADIOBUTTON | WS_GROUP,121,237,61,11
+    CONTROL         "2 バイト",41138,"Button",BS_AUTORADIOBUTTON,121,248,61,11
+    CONTROL         "4 バイト",41140,"Button",BS_AUTORADIOBUTTON,121,259,61,11
+    CONTROL         "不整列をチェック",42159,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,272,65,8
+    PUSHBUTTON      "変更回数をクリア(&C)",41153,226,46,52,20,BS_MULTILINE
+    PUSHBUTTON      "戻る(&U)",41152,226,69,52,16,WS_DISABLED
+    LTEXT           "Is",-1,92,270,12,8
+END
+
+562 DIALOGEX 0, 0, 181, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION " メモリ監視の編集"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "アドレス:",42157,18,12,35,10
+    EDITTEXT        41091,55,10,65,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    CTEXT           "コメント:",43410,18,24,45,10
+    EDITTEXT        43412,55,22,65,12,ES_AUTOHSCROLL
+    GROUPBOX        "データ形式",-1,14,37,75,42,0,WS_EX_TRANSPARENT
+    CONTROL         "符号あり(&S)",1037,"Button",BS_AUTORADIOBUTTON | WS_GROUP,18,47,67,8
+    CONTROL         "符号なし(&U)",1038,"Button",BS_AUTORADIOBUTTON,18,57,67,8
+    CONTROL         "16進(&H)",41151,"Button",BS_AUTORADIOBUTTON,18,67,67,8
+    GROUPBOX        "データサイズ",-1,94,37,73,42,0,WS_EX_TRANSPARENT
+    CONTROL         "&1 バイト",41137,"Button",BS_AUTORADIOBUTTON | WS_GROUP,98,47,61,11
+    CONTROL         "&2 バイト",41138,"Button",BS_AUTORADIOBUTTON,98,57,61,11
+    CONTROL         "&4 バイト",41140,"Button",BS_AUTORADIOBUTTON,98,67,61,11
+    DEFPUSHBUTTON   "&OK",IDOK,66,80,50,14
+    PUSHBUTTON      "キャンセル",32772,120,80,50,14
+END
+
+563 DIALOGEX 0, 0, 269, 242
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION " メモリ監視"
+MENU RAMWATCH_MENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",42171,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_OWNERDATA | WS_BORDER | WS_TABSTOP,9,9,210,222,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "編集(&E)",43402,226,66,34,14
+    PUSHBUTTON      "削除(&R)",43403,226,83,34,14
+    PUSHBUTTON      "新規(&N)",41139,226,100,34,14
+    PUSHBUTTON      "複製(&A)",43401,226,117,34,14
+    PUSHBUTTON      "チート追加",41135,222,156,42,16
+    GROUPBOX        "監視",-1,222,11,42,144
+    CONTROL         "",40670,"msctls_updown32",WS_TABSTOP,232,23,19,36
+    PUSHBUTTON      "Separator",43405,225,135,36,14
+END
+
+564 DIALOGEX 0, 0, 190, 70
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "入力プロンプト"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        43412,10,30,170,15,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,100,50,50,15
+    PUSHBUTTON      "キャンセル",32772,40,50,50,15
+    CTEXT           "",43410,0,3,190,8,SS_CENTERIMAGE
+    CTEXT           "",43411,0,15,190,8,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+101                     ICON                    "res/1033_Icon_101.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 7,23,6,479
+ PRODUCTVERSION 7,23,6,479
+ FILEFLAGSMASK 0x0L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "Comments", "VBA-RR Japanese Language File by Nekokabu"
+            VALUE "CompanyName", "http://code.google.com/p/vba-rerecording/"
+            VALUE "FileDescription", "VisualBoyAdvance-ReRecording Emulator"
+            VALUE "FileVersion", "7, 23, 6, 479"
+            VALUE "InternalName", "VBA-RR"
+            VALUE "LegalCopyright", "Copyright (C) 2005-2012 VBA-RR Development Team"
+            VALUE "OriginalFilename", "VisualBoyAdvance.exe"
+            VALUE "PrivateBuild", "0"
+            VALUE "ProductName", "GB/C/A emulator for Windows"
+            VALUE "ProductVersion", "7, 23, 6, 479"
+            VALUE "SpecialBuild", "0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    505, DIALOG
+    BEGIN
+    END
+
+    507, DIALOG
+    BEGIN
+    END
+
+    509, DIALOG
+    BEGIN
+    END
+
+    510, DIALOG
+    BEGIN
+    END
+
+    513, DIALOG
+    BEGIN
+    END
+
+    514, DIALOG
+    BEGIN
+    END
+
+    516, DIALOG
+    BEGIN
+    END
+
+    517, DIALOG
+    BEGIN
+    END
+
+    518, DIALOG
+    BEGIN
+    END
+
+    519, DIALOG
+    BEGIN
+    END
+
+    520, DIALOG
+    BEGIN
+    END
+
+    521, DIALOG
+    BEGIN
+    END
+
+    522, DIALOG
+    BEGIN
+    END
+
+    523, DIALOG
+    BEGIN
+    END
+
+    524, DIALOG
+    BEGIN
+    END
+
+    526, DIALOG
+    BEGIN
+    END
+
+    527, DIALOG
+    BEGIN
+    END
+
+    528, DIALOG
+    BEGIN
+    END
+
+    530, DIALOG
+    BEGIN
+    END
+
+    531, DIALOG
+    BEGIN
+    END
+
+    532, DIALOG
+    BEGIN
+    END
+
+    533, DIALOG
+    BEGIN
+    END
+
+    534, DIALOG
+    BEGIN
+    END
+
+    535, DIALOG
+    BEGIN
+    END
+
+    536, DIALOG
+    BEGIN
+    END
+
+    537, DIALOG
+    BEGIN
+    END
+
+    538, DIALOG
+    BEGIN
+    END
+
+    539, DIALOG
+    BEGIN
+    END
+
+    540, DIALOG
+    BEGIN
+    END
+
+    542, DIALOG
+    BEGIN
+    END
+
+    543, DIALOG
+    BEGIN
+    END
+
+    544, DIALOG
+    BEGIN
+    END
+
+    545, DIALOG
+    BEGIN
+    END
+
+    546, DIALOG
+    BEGIN
+    END
+
+    547, DIALOG
+    BEGIN
+    END
+
+    548, DIALOG
+    BEGIN
+    END
+
+    549, DIALOG
+    BEGIN
+    END
+
+    550, DIALOG
+    BEGIN
+    END
+
+    551, DIALOG
+    BEGIN
+    END
+
+    554, DIALOG
+    BEGIN
+    END
+
+    555, DIALOG
+    BEGIN
+    END
+
+    556, DIALOG
+    BEGIN
+    END
+
+    557, DIALOG
+    BEGIN
+    END
+
+    558, DIALOG
+    BEGIN
+    END
+
+    560, DIALOG
+    BEGIN
+    END
+
+    561, DIALOG
+    BEGIN
+    END
+
+    563, DIALOG
+    BEGIN
+    END
+
+    564, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+557 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+556 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+545 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+532 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+531 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+530 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+526 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+546 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+518 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+510 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+507 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    2                       "%sの状態保存ファイルを読み込めません。"
+    3                       "状態保存ファイルはBIOSファイルを使用していません。"
+    4                       "状態保存ファイルはBIOSファイルを使用しています。"
+    5                       "セーブ形式 %d はサポートしていません。"
+    6                       "%sを開けません。"
+    7                       "ZIPファイル%sは破損しています。"
+    8                       "ZIPファイル %s の中にロムファイルが見つかりません。"
+    9                       "%s を開くことができません。"
+    10                      "%s を読み込むことができません。"
+    11                      "BIOS機能 %02x(%08xから参照)は未対応です。\n正しく動作させるにはBIOSを使用して下さい。"
+    12                      "BIOSファイルが無効な大きさです。"
+    13                      "チートコード  '%s' は使用できません。\nサポートしているコードフォーマットは\nXXXXXXXX:yy\nXXXXXXXX:yyyy\nXXXXXXXX:yyyyyyyy\nです。"
+    14                      "オペコード %08x (アドレス; %08x)は未実装です。"
+    15                      "不明なオペコードです: %04x (アドレス: %08x)"
+END
+
+STRINGTABLE
+BEGIN
+    16                      "エラー！ %s を作成できません。"
+    17                      "状態保存ファイル %s (%d)の読み込みを完了できません。"
+    18                      "状態保存ファイル %s からRTC情報を読み取れません。(続行します)"
+    19                      "VisualBoy 状態保存ファイル バージョン %dは未対応です。"
+    20                      "%s から状態保存ファイルを読み込めません。 %s は使用中です。"
+    21                      "%s を開けません。（ZIPファイル: %s)"
+    22                      "%s を読み取れません。（ZIPファイル: %s)"
+    23                      "ロムサイズ %02x は未対応です。"
+    24                      "RAMサイズ %02x は未対応です。"
+    25                      "不明なカートリッジタイプです: %02x"
+    26                      "チートの登録数が最大に達しています。"
+    27                      "無効なGameSharkコードです: %s"
+    28                      "無効なGameGenieコードです: %s"
+    29                      "チートコード %d を削除できません。"
+    30                      "チートコードのアドレスが無効です: %08x"
+    31                      "バージョン %d のチートリストはサポートしていません。"
+END
+
+STRINGTABLE
+BEGIN
+    32                      "未対応のチートリスト形式 %d"
+    33                      "無効なGBA-PARコードです。\nサポートしているコードフォーマットは\nXXXXXXXXyyyyyyyy\nです。"
+    34                      "%s 用のスナップショットはインポートできません。 \n現在のゲームは %s です。"
+    35                      "%s は未対応のスナップショットファイルです"
+    36                      "%02x は未対応のARMモードです。"
+    37                      "%s は未対応のコードファイルです。"
+    38                      "警告: チートは %s 専用です。現在のゲームは %s です。\nコードは正常に動かない可能性があります。"
+    39                      "無効なX-TAコードです。\nサポートしているコードフォーマットは\nXXXXXXXX yyyy\nです。"
+    40                      "警告: 異なるゲームのコードが選択されているようです。\nコードは正常に動かない可能性があります。"
+    41                      "%s へのメモリの割り当てに失敗しました。"
+    43                      "未対応のVisualBoyAdvance 状態保存バージョンです: %d"
+    44                      "動作にはDirectX 7.0以上のランタイムが必要です。\n入手先: https://www.microsoft.com/ja-jp/directx/ \n\n1エラーが見つかりました: %s"
+    45                      "ビデオメモリを使用しない設定に変更しました。"
+    46                      "設定は次のエミュレーター起動時に有効になります。"
+    47                      "エミュレーションのみの設定を無効にしました。"
+END
+
+STRINGTABLE
+BEGIN
+    48                      "%s を開くことが出来ません。"
+    49                      "Zipファイル %s の構造を読み込むことができません。"
+    50                      "未対応のファイル形式です: %s"
+    51                      "DirectSoundを生成できません: %08x"
+    52                      "SetCooperativeLevelに失敗しました: %08x"
+    53                      "サウンドバッファを生成できません %08x"
+    54                      "プライマリの初期値を設定できません: %08x"
+    55                      "セカンダリサウンドバッファを生成できません: %08x"
+    56                      "プライマリを再生できません: %08x"
+    57                      "サーチ結果は %d でした。\nサーチを続けて候補を減らして下さい。"
+    58                      "値を入力して下さい。"
+    59                      "無効なアドレスです: %08x"
+    60                      "アドレス: %08x をハーフワードに調整できません。"
+    61                      "アドレス: %08x をワードに調整できません。"
+    62                      "値を入力してください"
+    63                      "印刷準備エラー"
+END
+
+STRINGTABLE
+BEGIN
+    64                      "印刷開始エラー"
+    65                      "引き伸ばし印刷エラー"
+    66                      "印刷途中エラー"
+    67                      "印刷終了エラー"
+    68                      "エラー"
+    69                      "ジョイスティック %d ←"
+    70                      "ジョイスティック %d →"
+    71                      "ジョイスティック %d ↑"
+    72                      "ジョイスティック %d ↓"
+    73                      "ジョイスティック %d %s"
+    74                      "BIOSファイルの選択"
+    75                      "Reset"
+    76                      "Aボタン連射の無効"
+    77                      "Aボタン連射"
+    78                      "Bボタン連射の無効"
+    79                      "Bボタン連射"
+END
+
+STRINGTABLE
+BEGIN
+    80                      "Lボタン連射の無効"
+    81                      "Lボタン連射"
+    82                      "Rボタン連射の無効"
+    83                      "Rボタン連射"
+    84                      "ロムの選択"
+    85                      "状態保存ファイルを選択してください"
+    86                      "Loaded state"
+    87                      "Loaded state %d"
+    88                      "Saved state"
+    89                      "Saved %d"
+    90                      "Loaded battery"
+    91                      "スクリーンショットの名前を入力してください"
+    92                      "スクリーンショット"
+    93                      "アドレス"
+    94                      "前回の値"
+    95                      "新しい値"
+END
+
+STRINGTABLE
+BEGIN
+    96                      "チートコードの追加"
+    97                      "コード"
+    98                      "説明"
+    99                      "状態"
+    100                     "言語ファイル %s を読み込めません"
+    101                     "システムの地域情報を取得できません。"
+    102                     "チートリストの選択"
+    103                     "Gameboy Advance_*.bin;*.agb;*.gba;*.bios;*.zip;*.z;*.gz;*.tar_すべてのファイル_*.*__"
+    104                     "すべてのGB/GBAファイル_*.bin;*.agb;*.gba;*.mb;*.elf;*.gb;*.sgb;*.cgb;*.gbc;*.zip;*.z;*.gz;*.7z;*.rar;*.lzma;*.bz2;*.bzip2;*.tar_すべてのGB/GBAファイル(未圧縮のみ)_*.bin;*.agb;*.gba;*.mb;*.elf;*.gb;*.sgb;*.cgb;*.gbc_GBAファイル (未圧縮のみ)_*.bin;*.agb;*.gba_GBファイル (未圧縮のみ)_*.gb;*.sgb;*.cgb;*.gbc_Archive Files_*.zip;*.z;*.gz;*.7z;*.rar;*.lzma;*.bz2;*.bzip2;*.tar_すべてのファイル_*.*__"
+    105                     "VisualBoyAdvance 状態保存ファイル_*.sgm_すべてのファイル_*.*__"
+    106                     "VisualBoyAdvance チートリスト_*.clt_すべてのファイル_*.*__"
+    107                     "PNG イメージ_*.png_BMP イメージ_*.bmp_すべてのファイル_*.*__"
+    108                     "Gameshark スナップショット_*.sps_すべてのファイル_*.*__"
+    109                     "スナップショットファイルの選択"
+    110                     "セーブファイル_*.SAV_Flash セーブ_*.DAT_すべてのファイル_*.*__"
+    111                     "セーブファイルの選択"
+END
+
+STRINGTABLE
+BEGIN
+    112                     "GBスナップショット_*.gbs_すべてのファイル_*.*__"
+    113                     "Gameshark Code File_*.gcf_すべてのファイル_*.*__"
+    114                     "コードファイルの選択"
+    115                     "スナップショットファイルをインポートすると、\nセーブファイルとエミュレータの設定が失われる場合があります。\nファイルをインポートしますか？"
+    116                     "確認"
+    117                     "コードファイルをインポートすると、今までに入力されたコードが失われます。\nファイルをインポートしますか？"
+    118                     "Gameshark Code File_*.spc;*.xpc_すべてのファイル_*.*__"
+    119                     "X-TAコードの追加"
+    120                     "Wave ファイル_*.wav_すべてのファイル_*.*__"
+    121                     "Waveファイルの保存"
+    122                     "すべてのGBファイル_*.gb;*.sgb;*.cgb;*.gbc;*.zip;*.z;*.gz;*.7z;*.rar;*.lzma;*.bz2;*.bzip2;*.tar_ゲームボーイ_*.gb_スーパーゲームボーイ_*.sgb_ゲームボーイカラー_*.cgb;*.gbc_すべてのファイル_*.*__"
+    123                     "Windows パレット (*.PAL)_*.pal_PaintShop パレット (*.PAL)_*.pal_Adobe カラーテーブル (*.ACT)_*.act_すべてのファイル_*.*__"
+    124                     "パレットファイルの選択:"
+    125                     "サーチ結果はありません。\nコード候補は見つかりませんでした。"
+    126                     "ソケットを生成できませんでした。 ポートがすでに開かれている可能性があります。"
+    127                     "ソケットからエラーが送られました。"
+END
+
+STRINGTABLE
+BEGIN
+    128                     "ソケットを作成できません。"
+    129                     "GDBからACKを受信することができません。"
+    130                     "エラー:GBAロムファイルではありません。"
+    131                     "EEPROMセーブはエクスポートできません。"
+    132                     "メモリダンプファイル_*.dmp_すべてのファイル_*.*__"
+    133                     "ダンプファイルの選択"
+    134                     "AVI ファイル_*.avi_すべてのファイル_*.*__"
+    135                     "AVIファイルの選択"
+    136                     "無効な実行速度です。5～1000までの数字を入力してください。"
+    137                     "スキン設定ファイル_*.ini_すべてのファイル_*.*__"
+    138                     "スキンファイルの選択"
+    139                     "VisualBoyAdvance ムービー (.vbm)_*.vbm;*.zip;*.z;*.gz;*.7z;*.rar;*.lzma;*.bz2;*.bzip2;*.tar_VisualBoyAdvance ムービー (未圧縮のみ)_*.vbm_圧縮ファイル_*.zip;*.z;*.gz;*.7z;*.rar;*.lzma;*.bz2;*.bzip2;*.tar_すべてのファイル_*.*__"
+    141                     "ムービーの選択"
+    142                     "バグ報告の内容を、Windowsクリップボードにコピーしました。\n問題解決をより簡単にするために、電子メールやフォーラムなどにその内容を投稿して下さい。"
+    143                     "バージョン %d のムービーは未対応です。"
+END
+
+STRINGTABLE
+BEGIN
+    144                     "ムービー終了"
+    145                     "巻き戻す間隔が無効な値です。0～600秒の間の値を入力して下さい。"
+    146                     "VisualBoyAdvanceは設定をレジストリに保存しなくなりました。\n以前の設定は %s にエクスポートされます。"
+    147                     "ムービーを再生すると現在のセーブデータは破棄されます。 \nもし、セーブデータを残しておきたいなら、必ず状態を保存しておいて下さい。\nムービーを再生しますか？"
+    148                     "autofire off"
+    149                     "autofire already off"
+    150                     "turbo Start off"
+    151                     "turbo Start on"
+    152                     "turbo Select off"
+    153                     "turbo Select on"
+    154                     "turbo Up off"
+    155                     "turbo Up on"
+    156                     "turbo Down off"
+    157                     "turbo Down on"
+    158                     "turbo Left off"
+    159                     "turbo Left on"
+END
+
+STRINGTABLE
+BEGIN
+    160                     "turbo Right off"
+    161                     "turbo Right on"
+    162                     "Re-record from %d"
+    163                     "Rewind to %d"
+    164                     "Loaded cheats"
+    165                     "GameGenieコードの追加"
+    166                     "GameSharkコードの追加"
+    167                     "GamesharkAdvanceコードの追加"
+    168                     "ポケットプリンタ"
+    169                     "不明"
+    170                     "なし"
+    171                     "サポートされていない画面設定: %d ビット\n\nこのプログラムを動作させるには、16ビットカラー以上に設定する必要があります。"
+    172                     "ムービーディレクトリの選択:"
+    173                     "GBAロムディレクトリの選択:"
+    174                     "GBxロムディレクトリの選択:"
+    175                     "セーブディレクトリの選択:"
+END
+
+STRINGTABLE
+BEGIN
+    176                     "状態保存ディレクトリの選択:"
+    177                     "スクリーンショットディレクトリの選択:"
+    178                     "AVI録画ディレクトリの選択:"
+    179                     "録音ディレクトリの選択:"
+    180                     "チートリストディレクトリの選択:"
+    181                     "メモリ監視ファイルディレクトリの選択:"
+    182                     "IPSディレクトリの選択:"
+    183                     "プラグインディレクトリの選択:"
+    184                     "Lua スクリプト (.lua)_*.lua_すべてのファイル_*.*__"
+    185                     "Luaスクリプトファイル名の選択"
+    186                     "Luaスクリプトファイルディレクトリの選択:"
+    187                     "AVI録画の開始(&A)..."
+    188                     "AVI録画の停止(&A)"
+    189                     "AVI録画の一時停止(&R)"
+    190                     "AVI録画の再開(&R)"
+    191                     "WAV録音の開始(&W)..."
+END
+
+STRINGTABLE
+BEGIN
+    192                     "WAV録音の停止(&W)"
+END
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英語 (米国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include <windows.h>\r\n"
+    "#include <commctrl.h>\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英語 (米国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
